@@ -1,0 +1,465 @@
+fileFormatVersion: 2
+guid: 8f09aeef4109046b3b5d63aa17bc2165
+timeCreated: 1465838001
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MageAttack_0
+    21300002: MageAttack_1
+    21300004: MageAttack_2
+    21300006: MageAttack_3
+    21300008: MageAttack_4
+    21300010: MageAttack_5
+    21300012: MageAttack_6
+    21300014: MageAttack_7
+    21300016: MageAttack_8
+    21300018: MageAttack_9
+    21300020: MageAttack_10
+    21300022: MageAttack_11
+    21300024: MageAttack_12
+    21300026: MageAttack_13
+    21300028: MageAttack_14
+    21300030: MageAttack_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MageAttack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 105.797455, y: 69.5}
+        - {x: 68.797455, y: 67.5}
+        - {x: 14.797455, y: 117.5}
+        - {x: 1.7974548, y: 121.5}
+        - {x: -51.202545, y: 121.5}
+        - {x: -100.202545, y: 79.5}
+        - {x: -101.202545, y: 69.5}
+        - {x: -101.202545, y: -42.5}
+        - {x: -47.202545, y: -124.5}
+        - {x: 39.797455, y: -124.5}
+        - {x: 68.797455, y: -97.5}
+        - {x: 105.797455, y: 22.5}
+    - name: MageAttack_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.24649, y: 111.5}
+        - {x: 3.2464905, y: 121.5}
+        - {x: -43.75351, y: 121.5}
+        - {x: -89.75351, y: 99.5}
+        - {x: -78.75351, y: 70.5}
+        - {x: -99.75351, y: 29.5}
+        - {x: -99.75351, y: -52.5}
+        - {x: -59.75351, y: -124.5}
+        - {x: 61.24649, y: -124.5}
+        - {x: 95.24649, y: -63.5}
+        - {x: 103.24649, y: 15.5}
+        - {x: 103.24649, y: 87.5}
+    - name: MageAttack_2
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.8043823, y: 121.5}
+        - {x: -58.804382, y: 121.5}
+        - {x: -88.80438, y: 88.5}
+        - {x: -87.80438, y: 78.5}
+        - {x: -80.80438, y: 71.5}
+        - {x: -71.80438, y: 69.5}
+        - {x: -102.80438, y: 27.5}
+        - {x: -102.80438, y: -4.5}
+        - {x: -100.80438, y: -31.5}
+        - {x: -97.80438, y: -44.5}
+        - {x: -54.804382, y: -124.5}
+        - {x: 55.195618, y: -124.5}
+        - {x: 68.19562, y: -111.5}
+        - {x: 99.19562, y: 44.5}
+        - {x: 99.19562, y: 87.5}
+    - name: MageAttack_3
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.144714, y: 119.5}
+        - {x: 9.144714, y: 120.5}
+        - {x: -63.855286, y: 120.5}
+        - {x: -88.855286, y: 90.5}
+        - {x: -91.855286, y: 83.5}
+        - {x: -87.855286, y: 70.5}
+        - {x: -103.855286, y: 57.5}
+        - {x: -103.855286, y: -65.5}
+        - {x: -85.855286, y: -124.5}
+        - {x: 48.144714, y: -124.5}
+        - {x: 79.144714, y: -69.5}
+        - {x: 98.144714, y: 43.5}
+        - {x: 98.144714, y: 82.5}
+    - name: MageAttack_4
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 101.09363, y: 73.5}
+        - {x: 22.093628, y: 118.5}
+        - {x: 4.093628, y: 121.5}
+        - {x: -62.906372, y: 121.5}
+        - {x: -101.90637, y: 98.5}
+        - {x: -101.90637, y: -22.5}
+        - {x: -70.90637, y: -90.5}
+        - {x: -45.906372, y: -124.5}
+        - {x: 41.093628, y: -124.5}
+        - {x: 72.09363, y: -102.5}
+        - {x: 87.09363, y: -9.5}
+        - {x: 101.09363, y: 42.5}
+    - name: MageAttack_5
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 104.042725, y: 67.5}
+        - {x: 5.0427246, y: 121.5}
+        - {x: -98.957275, y: 121.5}
+        - {x: -98.957275, y: -20.5}
+        - {x: -69.957275, y: -50.5}
+        - {x: -53.957275, y: -124.5}
+        - {x: 46.042725, y: -124.5}
+        - {x: 82.042725, y: -71.5}
+        - {x: 104.042725, y: 50.5}
+    - name: MageAttack_6
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.991821, y: 117.5}
+        - {x: -9.008179, y: 121.5}
+        - {x: -65.00818, y: 121.5}
+        - {x: -97.00818, y: 117.5}
+        - {x: -97.00818, y: -23.5}
+        - {x: -58.00818, y: -48.5}
+        - {x: -58.00818, y: -124.5}
+        - {x: 43.99182, y: -124.5}
+        - {x: 70.99182, y: -104.5}
+        - {x: 106.99182, y: 19.5}
+        - {x: 106.99182, y: 77.5}
+    - name: MageAttack_7
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.059082, y: 123.5}
+        - {x: -69.05908, y: 96.5}
+        - {x: -70.05908, y: 82.5}
+        - {x: -53.059082, y: 74.5}
+        - {x: -90.05908, y: 40.5}
+        - {x: -90.05908, y: 25.5}
+        - {x: -86.05908, y: 16.5}
+        - {x: -36.059082, y: -40.5}
+        - {x: -34.059082, y: -38.5}
+        - {x: -27.059082, y: -32.5}
+        - {x: -33.059082, y: -43.5}
+        - {x: -64.05908, y: -82.5}
+        - {x: -69.05908, y: -120.5}
+        - {x: -53.059082, y: -124.5}
+        - {x: 73.94092, y: -124.5}
+        - {x: 114.94092, y: -12.5}
+        - {x: 114.94092, y: 79.5}
+        - {x: 10.940918, y: 123.5}
+    - name: MageAttack_8
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.890137, y: 123.5}
+        - {x: -84.10986, y: 123.5}
+        - {x: -84.10986, y: -15.5}
+        - {x: -45.109863, y: -44.5}
+        - {x: -30.109863, y: -36.5}
+        - {x: -24.109863, y: -30.5}
+        - {x: -60.109863, y: -83.5}
+        - {x: -59.109863, y: -124.5}
+        - {x: 71.89014, y: -124.5}
+        - {x: 114.89014, y: -65.5}
+        - {x: 122.89014, y: -45.5}
+        - {x: 122.89014, y: 60.5}
+    - name: MageAttack_9
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 129.83936, y: 30.5}
+        - {x: 129.83936, y: 58.5}
+        - {x: 49.839355, y: 123.5}
+        - {x: -78.160645, y: 123.5}
+        - {x: -78.160645, y: -9.5}
+        - {x: -54.160645, y: -43.5}
+        - {x: -66.160645, y: -124.5}
+        - {x: 95.839355, y: -124.5}
+        - {x: 100.839355, y: -123.5}
+        - {x: 129.83936, y: -76.5}
+        - {x: 129.83936, y: -60.5}
+        - {x: 88.839355, y: -25.5}
+    - name: MageAttack_10
+      rect:
+        serializedVersion: 2
+        x: 3630
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.78833, y: 123.5}
+        - {x: -60.21167, y: 123.5}
+        - {x: -70.21167, y: 120.5}
+        - {x: -74.21167, y: 111.5}
+        - {x: -74.21167, y: -14.5}
+        - {x: -55.21167, y: -72.5}
+        - {x: -52.21167, y: -123.5}
+        - {x: -46.21167, y: -124.5}
+        - {x: 99.78833, y: -124.5}
+        - {x: 132.78833, y: -112.5}
+        - {x: 132.78833, y: 61.5}
+    - name: MageAttack_11
+      rect:
+        serializedVersion: 2
+        x: 3993
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 127.737305, y: 10.5}
+        - {x: 133.7373, y: 29.5}
+        - {x: 133.7373, y: 43.5}
+        - {x: 61.737305, y: 121.5}
+        - {x: 47.737305, y: 123.5}
+        - {x: -73.262695, y: 123.5}
+        - {x: -73.262695, y: -1.5}
+        - {x: -29.262695, y: -35.5}
+        - {x: -25.262695, y: -34.5}
+        - {x: -55.262695, y: -72.5}
+        - {x: -52.262695, y: -104.5}
+        - {x: -47.262695, y: -118.5}
+        - {x: -35.262695, y: -124.5}
+        - {x: 99.737305, y: -124.5}
+        - {x: 120.737305, y: -117.5}
+        - {x: 123.737305, y: -83.5}
+        - {x: 98.737305, y: -46.5}
+    - name: MageAttack_12
+      rect:
+        serializedVersion: 2
+        x: 4356
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88.68652, y: -39.5}
+        - {x: 63.686523, y: -50.5}
+        - {x: 69.68652, y: -46.5}
+        - {x: 91.68652, y: -28.5}
+        - {x: 132.68652, y: 22.5}
+        - {x: 132.68652, y: 50.5}
+        - {x: 54.686523, y: 116.5}
+        - {x: 37.686523, y: 123.5}
+        - {x: -48.313477, y: 123.5}
+        - {x: -74.31348, y: 113.5}
+        - {x: -74.31348, y: -124.5}
+        - {x: 65.68652, y: -124.5}
+        - {x: 118.68652, y: -108.5}
+        - {x: 122.68652, y: -84.5}
+        - {x: 105.68652, y: -43.5}
+    - name: MageAttack_13
+      rect:
+        serializedVersion: 2
+        x: 4719
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131.6355, y: -92.5}
+        - {x: 131.6355, y: 80.5}
+        - {x: 78.6355, y: 123.5}
+        - {x: -57.364502, y: 123.5}
+        - {x: -62.364502, y: 122.5}
+        - {x: -49.364502, y: 96.5}
+        - {x: -41.364502, y: 82.5}
+        - {x: -26.364502, y: 81.5}
+        - {x: -75.3645, y: 48.5}
+        - {x: -75.3645, y: 17.5}
+        - {x: -50.364502, y: -122.5}
+        - {x: -35.364502, y: -124.5}
+        - {x: -23.364502, y: -124.5}
+        - {x: -16.364502, y: -114.5}
+        - {x: 11.635498, y: -124.5}
+        - {x: 115.6355, y: -124.5}
+    - name: MageAttack_14
+      rect:
+        serializedVersion: 2
+        x: 5082
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70.58472, y: 111.5}
+        - {x: 33.584717, y: 123.5}
+        - {x: -27.415283, y: 123.5}
+        - {x: -58.415283, y: 106.5}
+        - {x: -76.41528, y: 64.5}
+        - {x: -76.41528, y: 5.5}
+        - {x: -62.415283, y: -72.5}
+        - {x: -49.415283, y: -124.5}
+        - {x: 43.584717, y: -124.5}
+        - {x: 104.58472, y: -91.5}
+        - {x: 131.58472, y: 14.5}
+        - {x: 131.58472, y: 50.5}
+    - name: MageAttack_15
+      rect:
+        serializedVersion: 2
+        x: 5445
+        y: 0
+        width: 363
+        height: 373
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.53369, y: 117.5}
+        - {x: 6.5336914, y: 123.5}
+        - {x: -28.466309, y: 123.5}
+        - {x: -67.46631, y: 99.5}
+        - {x: -65.46631, y: 88.5}
+        - {x: -54.46631, y: 76.5}
+        - {x: -87.46631, y: 42.5}
+        - {x: -87.46631, y: 27.5}
+        - {x: -82.46631, y: 15.5}
+        - {x: -35.46631, y: -39.5}
+        - {x: -32.46631, y: -37.5}
+        - {x: -26.466309, y: -31.5}
+        - {x: -32.46631, y: -38.5}
+        - {x: -67.46631, y: -80.5}
+        - {x: -44.46631, y: -124.5}
+        - {x: 40.53369, y: -124.5}
+        - {x: 78.53369, y: -106.5}
+        - {x: 119.53369, y: -9.5}
+        - {x: 119.53369, y: 77.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

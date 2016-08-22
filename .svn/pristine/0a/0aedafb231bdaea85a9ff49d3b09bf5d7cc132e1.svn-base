@@ -1,0 +1,165 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using LitJson;
+using UnityEngine.UI;
+
+public class GameManager : MonoBehaviour {
+
+	public static int nRow = 9;                                    // Number of rows in the game board
+	public static int nCol = 9;                                    // Number of columns in the game board
+	public ReadJson readJson;
+	public GameObject tile_1;								   	   // Tile tpye 1
+	public GameObject tile_2;									   // Tile tpye 2
+	public Block[] blockTypes;                             		   // Number of types of different blocks used 
+	public static Block[,] blocks = new Block[nRow+1, nCol+1]; 								   // Stores the block currently on the gameboard
+	public static int [,] gameBoard = new int[nRow, nCol];         // Gameboard size
+
+	static public GameManager instance; //the instance of our class that will do the work
+
+	void Awake(){ //called when an instance awakes in the game
+		instance = this; //set our static reference to our newly initialized instance
+	}
+
+
+	void Start () {
+		parseJsonData ();
+		initializeGameBoard ();
+		initializeBlocks ();
+	//	test ();
+		AllPossibleSwaps.detectPossibleSwaps();
+		//fillHoles ();
+	//	test();
+	}
+
+	// JSON
+	void parseJsonData(){
+		JsonData LevelLayout = readJson.getLevel ("Level_1");
+
+		// JsonData [0,0] is top left, reorder so that [0,0] is at bottom left for game board
+		for (int i = 0; i < nRow; i++) {
+			for (int j = 0; j < nCol; j++) {
+				gameBoard[j, i] = (int)LevelLayout["tiles"][nRow-1-i][j];
+			}
+		}
+	}
+
+	// INITIALIZE //
+	// Alternates between two different blocks
+	void initializeGameBoard(){
+		// Every even row starts with tile_1 and alternates with tile_2
+		// Every odd row starts with tile_2 and alternates with tile_1
+
+		for (int row = 0; row<GameManager.nRow; row++) {
+			for (int col = 0; col<GameManager. nCol; col++){
+				if (gameBoard [col, row] == 1) {
+					if (row % 2 == 0 && (row * nRow + col) % 2 == 0) {
+						Instantiate (tile_1, new Vector3 (col, row, 1), Quaternion.identity);
+					} else if (row % 2 == 0 && (row * nRow + col) % 2 != 0) {
+						Instantiate (tile_2, new Vector3 (col, row, 1), Quaternion.identity);
+					}
+					if (row % 2 != 0 && (row * nRow + col) % 2 != 0) {
+						Instantiate (tile_2, new Vector3 (col, row, 1), Quaternion.identity);
+					} else if (row % 2 != 0 && (row * nRow + col) % 2 == 0) {
+						Instantiate (tile_1, new Vector3 (col, row, 1), Quaternion.identity);
+					}
+				}
+			}
+		}
+	}
+
+	void initializeBlocks(){
+		for (int row = 0; row < nRow; row++) {
+			for (int col = 0; col < nCol; col++) {
+				if (gameBoard [col , row] == 1) {
+					spawnAt (col, row);
+				}
+			}
+		}
+	}
+		
+	// Spawn block at x,y //
+	public void spawnAt(int col, int row) {
+		int index = Random.Range (0, blockTypes.Length);
+
+		// If the block chosen to spawn makes a chain with the blocks to the left or down direction, choose a new block
+		// Cares only about left and down direction becuase it is being built from right to left and bottom to top
+		while ((findTag (col-1, row) == blockTypes[index].tag && findTag (col-2, row) == blockTypes [index].tag)
+			|| (findTag (col, row - 1) == blockTypes[index].tag && findTag (col, row-2) == blockTypes [index].tag)) {
+
+			index = Random.Range (0, blockTypes.Length);
+		};
+			
+		blocks[col, row] = (Block)Instantiate (blockTypes [index], new Vector2 (col, row), Quaternion.identity);
+	}
+		
+	// Finds the tag (type) of block at (x, y) location
+	public static string findTag(int col, int row){
+
+		if (col >= 0 && row >= 0){
+			if (blocks [col, row]) {
+				return blocks [col, row].tag;
+			}
+		}
+		return "none";
+	}
+
+	// Returns an array of columns. In each column is the blocks that needs to be moved to fill the holes
+	public static List<List<Block>> fillHoles(){
+		List<List<Block>> columns = new List<List<Block>>();
+
+		for (int column = 0; column<nCol; column++){
+			List<Block> array = new List<Block>();
+
+			for (int row = 0; row<nRow; row++){
+			if (gameBoard [column, row] == 1 && blocks[column, row] != null) {		// If a tile exists and no block is occupying it
+					for (int lookup = row + 1; lookup<nRow; lookup++) {
+						if (blocks[column, lookup] != null) {
+
+						// assign current block with the one above it
+						//blocks[column, row] = blocks[column, lookup];
+
+							array.Add (blocks [column, row]);
+						//instance.StartCoroutine(instance.animateFallingBlocks(blocks[column, row], new Vector3(column, lookup, 0), new Vector3(column, row, 0)));
+							//Move blocks accordinglly
+						}
+					}
+				}
+			}
+			if (array.Count != 0) {
+				columns.Add(array);
+			}
+		}
+		return columns;
+	}
+
+
+IEnumerator animateFallingBlocks(Block block, Vector3 oldPosition, Vector3 newPosition){
+
+	while (oldPosition != newPosition) {
+		block.transform.position = Vector3.Lerp (oldPosition, newPosition, (float)Time.deltaTime*200);
+
+		yield return null;
+	}
+	yield return null;
+}
+	// Determines if touch is inside the gameboard
+/*	bool convertPoint(Vector2 point) {
+		Debug.Log (point.x);
+		Debug.Log (point.y);
+		if ((point.x >= 0 && point.x < nCol) && (point.y >= 0 && point.y < nRow)) {
+			Debug.Log (point.x);
+			Debug.Log (point.y);
+
+			return true;
+		} else {
+			return false; // invalid position
+		}
+	}
+		
+	// Update is called once per frame
+	void Update () {
+		
+	}*/
+}
+

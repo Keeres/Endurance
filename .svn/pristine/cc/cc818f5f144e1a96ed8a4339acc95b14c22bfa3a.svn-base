@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: 5da26341afb2741eda7c9612b8c5c1c7
+timeCreated: 1465433933
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Knight-Idle_0
+    21300002: Knight-Idle_1
+    21300004: Knight-Idle_2
+    21300006: Knight-Idle_3
+    21300008: Knight-Idle_4
+    21300010: Knight-Idle_5
+    21300012: Knight-Idle_6
+    21300014: Knight-Idle_7
+    21300016: Knight-Idle_8
+    21300018: Knight-Idle_9
+    21300020: Knight-Idle_10
+    21300022: Knight-Idle_11
+    21300024: Knight-Idle_12
+    21300026: Knight-Idle_13
+    21300028: Knight-Idle_14
+    21300030: Knight-Idle_15
+    21300032: Knight-Idle_16
+    21300034: Knight-Idle_17
+    21300036: Knight-Idle_18
+    21300038: Knight-Idle_19
+    21300040: Knight-Idle_20
+    21300042: Knight-Idle_21
+    21300044: Knight-Idle_22
+    21300046: Knight-Idle_23
+    21300048: KnightIdle_0
+    21300050: KnightIdle_1
+    21300052: KnightIdle_2
+    21300054: KnightIdle_3
+    21300056: KnightIdle_4
+    21300058: KnightIdle_5
+    21300060: KnightIdle_6
+    21300062: KnightIdle_7
+    21300064: KnightIdle_8
+    21300066: KnightIdle_9
+    21300068: KnightIdle_10
+    21300070: KnightIdle_11
+    21300072: KnightIdle_12
+    21300074: KnightIdle_13
+    21300076: KnightIdle_14
+    21300078: KnightIdle_15
+    21300080: KnightIdle_16
+    21300082: KnightIdle_17
+    21300084: KnightIdle_18
+    21300086: KnightIdle_19
+    21300088: KnightIdle_20
+    21300090: KnightIdle_21
+    21300092: KnightIdle_22
+    21300094: KnightIdle_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 400
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KnightIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.086662, y: 84}
+        - {x: -66.08666, y: 71}
+        - {x: -66.08666, y: 33}
+        - {x: -38.086662, y: -36}
+        - {x: 1.9133377, y: -88}
+        - {x: 86.91334, y: -88}
+        - {x: 86.91334, y: 83}
+        - {x: 85.91334, y: 84}
+    - name: KnightIdle_1
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.9199982, y: 85}
+        - {x: -64.92, y: 66}
+        - {x: -64.92, y: 22}
+        - {x: -11.919998, y: -88}
+        - {x: 87.08, y: -88}
+        - {x: 87.08, y: 83}
+        - {x: 84.08, y: 85}
+    - name: KnightIdle_2
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82.24664, y: 86}
+        - {x: -8.753357, y: 86}
+        - {x: -48.753357, y: 73}
+        - {x: -18.753357, y: 25}
+        - {x: -12.753357, y: 15}
+        - {x: -13.753357, y: 14}
+        - {x: -37.753357, y: 55}
+        - {x: -63.753357, y: 70}
+        - {x: -65.75336, y: 67}
+        - {x: -65.75336, y: -7}
+        - {x: -14.753357, y: -88}
+        - {x: 78.24664, y: -88}
+        - {x: 82.24664, y: -86}
+        - {x: 87.24664, y: -62}
+        - {x: 87.24664, y: 57}
+        - {x: 86.24664, y: 67}
+    - name: KnightIdle_3
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 71.4133, y: 86}
+        - {x: -26.5867, y: 86}
+        - {x: -64.5867, y: 82}
+        - {x: -64.5867, y: -25}
+        - {x: -60.5867, y: -50}
+        - {x: 0.41329956, y: -88}
+        - {x: 71.4133, y: -88}
+        - {x: 88.4133, y: -67}
+        - {x: 88.4133, y: 67}
+    - name: KnightIdle_4
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87.079956, y: 76}
+        - {x: 75.079956, y: 87}
+        - {x: -48.920044, y: 87}
+        - {x: -64.920044, y: 84}
+        - {x: -64.920044, y: 1}
+        - {x: -56.920044, y: -40}
+        - {x: 2.079956, y: -88}
+        - {x: 77.079956, y: -88}
+        - {x: 82.079956, y: -87}
+        - {x: 87.079956, y: -56}
+    - name: KnightIdle_5
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.246643, y: 87}
+        - {x: -47.753357, y: 66}
+        - {x: -30.753357, y: 52}
+        - {x: -22.753357, y: 35}
+        - {x: -26.753357, y: 43}
+        - {x: -39.753357, y: 58}
+        - {x: -54.753357, y: 67}
+        - {x: -65.75336, y: 68}
+        - {x: -65.75336, y: 24}
+        - {x: -42.753357, y: -82}
+        - {x: -20.753357, y: -88}
+        - {x: 87.24664, y: -88}
+        - {x: 87.24664, y: 75}
+        - {x: 71.24664, y: 87}
+    - name: KnightIdle_6
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.413269, y: 88}
+        - {x: -38.58673, y: 64}
+        - {x: -17.586731, y: 27}
+        - {x: -12.586731, y: 18}
+        - {x: -32.58673, y: 52}
+        - {x: -42.58673, y: 61}
+        - {x: -64.58673, y: 68}
+        - {x: -64.58673, y: 13}
+        - {x: -14.586731, y: -88}
+        - {x: 73.41327, y: -88}
+        - {x: 88.41327, y: -67}
+        - {x: 88.41327, y: 64}
+        - {x: 74.41327, y: 88}
+    - name: KnightIdle_7
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 84.079956, y: 88}
+        - {x: -64.920044, y: 88}
+        - {x: -64.920044, y: 9}
+        - {x: -12.920044, y: -88}
+        - {x: 67.079956, y: -88}
+        - {x: 77.079956, y: -83}
+        - {x: 87.079956, y: -77}
+        - {x: 87.079956, y: 79}
+    - name: KnightIdle_8
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.753418, y: 88}
+        - {x: -31.753418, y: 60}
+        - {x: -29.753418, y: 52}
+        - {x: -18.753418, y: 28}
+        - {x: -11.753418, y: 18}
+        - {x: -7.753418, y: 15}
+        - {x: -13.753418, y: 19}
+        - {x: -28.753418, y: 44}
+        - {x: -36.753418, y: 56}
+        - {x: -40.753418, y: 59}
+        - {x: -55.753418, y: 65}
+        - {x: -58.753418, y: 66}
+        - {x: -65.75342, y: 69}
+        - {x: -65.75342, y: -6}
+        - {x: -62.753418, y: -22}
+        - {x: 4.246582, y: -88}
+        - {x: 87.24658, y: -88}
+        - {x: 87.24658, y: 85}
+        - {x: 79.24658, y: 88}
+    - name: KnightIdle_9
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88.41321, y: 66}
+        - {x: 73.41321, y: 88}
+        - {x: 12.413208, y: 88}
+        - {x: -7.586792, y: 80}
+        - {x: -27.586792, y: 66}
+        - {x: -31.586792, y: 54}
+        - {x: -17.586792, y: 28}
+        - {x: -10.586792, y: 18}
+        - {x: -9.586792, y: 13}
+        - {x: -21.586792, y: 34}
+        - {x: -33.586792, y: 54}
+        - {x: -38.586792, y: 59}
+        - {x: -57.586792, y: 69}
+        - {x: -64.58679, y: 71}
+        - {x: -64.58679, y: 24}
+        - {x: -48.586792, y: -38}
+        - {x: 5.413208, y: -88}
+        - {x: 69.41321, y: -88}
+        - {x: 88.41321, y: -47}
+    - name: KnightIdle_10
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.920044, y: 88}
+        - {x: -64.920044, y: 12}
+        - {x: -11.920044, y: -88}
+        - {x: 74.079956, y: -88}
+        - {x: 87.079956, y: -49}
+        - {x: 87.079956, y: 88}
+    - name: KnightIdle_11
+      rect:
+        serializedVersion: 2
+        x: 3597
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.753418, y: 88}
+        - {x: -65.75342, y: 79}
+        - {x: -65.75342, y: 26}
+        - {x: -52.753418, y: -16}
+        - {x: 2.246582, y: -88}
+        - {x: 71.24658, y: -88}
+        - {x: 87.24658, y: -61}
+        - {x: 87.24658, y: 85}
+        - {x: 74.24658, y: 88}
+    - name: KnightIdle_12
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.58679, y: 88}
+        - {x: -64.58679, y: -42}
+        - {x: -6.586792, y: -88}
+        - {x: 81.41321, y: -88}
+        - {x: 88.41321, y: -68}
+        - {x: 88.41321, y: 88}
+    - name: KnightIdle_13
+      rect:
+        serializedVersion: 2
+        x: 4251
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75.079834, y: 88}
+        - {x: -0.920166, y: 88}
+        - {x: -37.920166, y: 74}
+        - {x: -30.920166, y: 54}
+        - {x: -17.920166, y: 28}
+        - {x: -15.920166, y: 26}
+        - {x: -17.920166, y: 28}
+        - {x: -35.920166, y: 62}
+        - {x: -63.920166, y: 71}
+        - {x: -64.920166, y: 67}
+        - {x: -64.920166, y: 20}
+        - {x: -17.920166, y: -88}
+        - {x: 84.079834, y: -88}
+        - {x: 87.079834, y: -66}
+        - {x: 87.079834, y: 76}
+    - name: KnightIdle_14
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.753418, y: 88}
+        - {x: -29.753418, y: 71}
+        - {x: -30.753418, y: 52}
+        - {x: -18.753418, y: 29}
+        - {x: -10.753418, y: 18}
+        - {x: -7.753418, y: 16}
+        - {x: -12.753418, y: 18}
+        - {x: -18.753418, y: 28}
+        - {x: -25.753418, y: 40}
+        - {x: -36.753418, y: 63}
+        - {x: -65.75342, y: 70}
+        - {x: -65.75342, y: 36}
+        - {x: -51.753418, y: 1}
+        - {x: 2.246582, y: -88}
+        - {x: 74.24658, y: -88}
+        - {x: 87.24658, y: -49}
+        - {x: 87.24658, y: 81}
+        - {x: 64.24658, y: 88}
+    - name: KnightIdle_15
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.91333, y: 88}
+        - {x: -9.08667, y: 80}
+        - {x: -29.08667, y: 66}
+        - {x: -33.08667, y: 54}
+        - {x: -19.08667, y: 28}
+        - {x: -12.08667, y: 18}
+        - {x: -11.08667, y: 13}
+        - {x: -23.08667, y: 34}
+        - {x: -35.08667, y: 54}
+        - {x: -40.08667, y: 59}
+        - {x: -59.08667, y: 69}
+        - {x: -66.08667, y: 71}
+        - {x: -66.08667, y: 31}
+        - {x: -47.08667, y: -36}
+        - {x: -14.08667, y: -88}
+        - {x: 86.91333, y: -88}
+        - {x: 86.91333, y: 87}
+        - {x: 84.91333, y: 88}
+    - name: KnightIdle_16
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.920166, y: 88}
+        - {x: -64.920166, y: 30}
+        - {x: -23.920166, y: -88}
+        - {x: 87.079834, y: -88}
+        - {x: 87.079834, y: 88}
+    - name: KnightIdle_17
+      rect:
+        serializedVersion: 2
+        x: 5559
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.753418, y: 27}
+        - {x: -12.753418, y: 18}
+        - {x: -12.753418, y: 17}
+        - {x: -33.753418, y: 51}
+        - {x: -37.753418, y: 59}
+        - {x: -65.75342, y: 68}
+        - {x: -65.75342, y: 29}
+        - {x: -50.753418, y: -21}
+        - {x: 3.246582, y: -88}
+        - {x: 87.24658, y: -88}
+        - {x: 87.24658, y: 71}
+        - {x: 86.24658, y: 75}
+        - {x: 71.24658, y: 88}
+        - {x: 3.246582, y: 88}
+        - {x: -41.753418, y: 73}
+    - name: KnightIdle_18
+      rect:
+        serializedVersion: 2
+        x: 5886
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.413086, y: 88}
+        - {x: -38.586914, y: 64}
+        - {x: -17.586914, y: 27}
+        - {x: -12.586914, y: 18}
+        - {x: -32.586914, y: 52}
+        - {x: -42.586914, y: 61}
+        - {x: -64.586914, y: 68}
+        - {x: -64.586914, y: 13}
+        - {x: -14.586914, y: -88}
+        - {x: 73.413086, y: -88}
+        - {x: 88.413086, y: -67}
+        - {x: 88.413086, y: 64}
+        - {x: 74.413086, y: 88}
+    - name: KnightIdle_19
+      rect:
+        serializedVersion: 2
+        x: 6213
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.920166, y: 87}
+        - {x: -64.920166, y: 75}
+        - {x: -64.920166, y: -19}
+        - {x: -63.920166, y: -26}
+        - {x: 5.079834, y: -88}
+        - {x: 74.079834, y: -88}
+        - {x: 87.079834, y: -69}
+        - {x: 87.079834, y: 87}
+    - name: KnightIdle_20
+      rect:
+        serializedVersion: 2
+        x: 6540
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.246582, y: 87}
+        - {x: -30.753418, y: 65}
+        - {x: -33.753418, y: 52}
+        - {x: -12.753418, y: 15}
+        - {x: -16.753418, y: 23}
+        - {x: -38.753418, y: 56}
+        - {x: -60.753418, y: 65}
+        - {x: -65.75342, y: 66}
+        - {x: -65.75342, y: 22}
+        - {x: -58.753418, y: -28}
+        - {x: 5.246582, y: -88}
+        - {x: 82.24658, y: -88}
+        - {x: 87.24658, y: -68}
+        - {x: 87.24658, y: 71}
+        - {x: 76.24658, y: 87}
+    - name: KnightIdle_21
+      rect:
+        serializedVersion: 2
+        x: 6867
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 71.413086, y: 86}
+        - {x: -26.586914, y: 86}
+        - {x: -64.586914, y: 82}
+        - {x: -64.586914, y: -25}
+        - {x: -60.586914, y: -50}
+        - {x: 0.41308594, y: -88}
+        - {x: 71.413086, y: -88}
+        - {x: 88.413086, y: -67}
+        - {x: 88.413086, y: 67}
+    - name: KnightIdle_22
+      rect:
+        serializedVersion: 2
+        x: 7194
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.920166, y: 86}
+        - {x: -30.920166, y: 63}
+        - {x: -30.920166, y: 49}
+        - {x: -24.920166, y: 41}
+        - {x: -17.920166, y: 24}
+        - {x: -11.920166, y: 16}
+        - {x: -14.920166, y: 16}
+        - {x: -36.920166, y: 55}
+        - {x: -64.920166, y: 66}
+        - {x: -64.920166, y: 17}
+        - {x: -52.920166, y: -27}
+        - {x: -18.920166, y: -88}
+        - {x: 79.079834, y: -88}
+        - {x: 87.079834, y: -66}
+        - {x: 87.079834, y: 83}
+        - {x: 76.079834, y: 86}
+    - name: KnightIdle_23
+      rect:
+        serializedVersion: 2
+        x: 7521
+        y: 0
+        width: 327
+        height: 337
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.753418, y: 85}
+        - {x: -46.753418, y: 64}
+        - {x: -30.753418, y: 50}
+        - {x: -18.753418, y: 24}
+        - {x: -11.753418, y: 15}
+        - {x: -16.753418, y: 21}
+        - {x: -38.753418, y: 54}
+        - {x: -60.753418, y: 64}
+        - {x: -65.75342, y: 64}
+        - {x: -65.75342, y: 20}
+        - {x: -52.753418, y: -27}
+        - {x: -6.753418, y: -88}
+        - {x: 80.24658, y: -88}
+        - {x: 87.24658, y: -83}
+        - {x: 87.24658, y: 81}
+        - {x: 86.24658, y: 85}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

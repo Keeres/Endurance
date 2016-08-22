@@ -1,0 +1,52 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class Block: MonoBehaviour {
+	//public Grid grid;
+//	public GameObject Grids;
+//	private bool enabled = true;
+
+	void Start () {
+		// Cache the script so it's not looked for during update
+		//grid = Grids.GetComponent("Grid") as Grid;
+		StartCoroutine(falling());
+	}
+
+
+	//return true if the sprites of the two blocks are the same, return false if not the same
+	public bool sameType(Block other) {
+		return GetComponent<SpriteRenderer>().sprite == other.GetComponent<SpriteRenderer>().sprite;
+	}
+
+	// Update is called once per frame
+	void Update () {
+	//	fallingDown ();
+			
+		}
+
+	 void fallingDown(){
+		// Fall downwards
+		float x = transform.position.x;
+		float y = transform.position.y;
+		float z = transform.position.z;
+	//	y = Mathf.Round (y * 10) / 10;
+
+		if (y > 0 && !Grid.blockRange (x, y - 0.1f)) {
+			Debug.Log (y);
+
+			transform.position = Vector3.Lerp (new Vector3 (x, y, z), new Vector3 (x, y - 0.5f, z), (float)Time.deltaTime*200);
+		//	y--;
+			Debug.Log(transform.position);
+		}	
+	}
+
+	IEnumerator falling(){
+		// Fall downwards
+		while (enabled) {
+			fallingDown ();
+			yield return new WaitForSeconds (0.01f);
+
+		}
+
+	}
+}

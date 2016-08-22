@@ -1,0 +1,154 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class Mouse : MonoBehaviour {
+	int swipeFromColumn = -1;
+	int swipeFromRow = -1;
+	int toColumn = 0;
+	int toRow = 0;
+	private Vector3 initialMousePosition;
+	private int threshold = 9;
+	private int smoothing = 20;              // smooth out the aniamtion
+	bool drag = false;
+	bool validSwap = false;
+
+	// SWIPE TO SWAP THE BLOCKS
+	void OnMouseDown (){
+		if (Input.GetMouseButtonDown (0)) {
+			Debug.Log ("mouse down");
+			initialMousePosition = Input.mousePosition;
+
+			// Determine is the mouse has clicked within the gameboard
+			GameObject tile = getClickedGameObject();          
+			if (tile != null) {
+				int col = (int)tile.transform.position.x;
+				int row = (int)tile.transform.position.y;
+				Debug.Log(GameManager.blocks[col, row].tag);
+				// If a tile piece is found (i.e. mouse click inside the gameboard), find if a block is inside the tile
+				if (GameManager.blocks[col, row]) {
+					// the coordinate position of the block being swiped from
+					swipeFromRow = (int)row;
+					swipeFromColumn = (int)col;
+					drag = true;
+				}	
+			}
+		}
+	}
+
+	void OnMouseDrag(){
+	//	Debug.Log (drag);
+
+		// if nothing is being swiped end action
+		if (swipeFromColumn < 0) {
+			drag = false;
+			return;
+		}
+
+		if(drag == true){
+			toRow = swipeFromRow;
+			toColumn = swipeFromColumn;
+			var currentMousePosition = Input.mousePosition - initialMousePosition;
+			currentMousePosition.Normalize ();    // normalize so the the length is one while direction is the same
+
+			// Normalized distance mouse traveled
+			var delta = Vector3.Dot (currentMousePosition, Vector3.up);   // vector3.up is the shorthand of Vector3(0, 1, 0).
+
+			// If mouse distance traveled < threshhold then no dragging takes place
+			if (Vector3.Distance (initialMousePosition, Input.mousePosition) < threshold) {  
+				return;	
+			}
+
+			if (delta >= 0.5) {
+				Debug.Log ("Up");
+				toRow++;
+			} else if (delta <= -0.5) {
+				Debug.Log ("Down");
+				toRow--;
+			} else {
+				delta = Vector3.Dot (currentMousePosition, Vector3.right);
+				if (delta >= 0.5) {
+					Debug.Log ("Right");
+					toColumn++;
+				} else {
+					Debug.Log ("Left");
+					toColumn--;
+				}
+			}
+			trySwapBlock ();
+			drag = false;
+		}
+	}
+
+	// Determine if mouse has click within a game board, all tiles must have colliders on them
+	GameObject getClickedGameObject(){
+		// Builds a ray from camera point of view to the mouse position
+		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		RaycastHit hit;
+		// Casts the ray and get the first game object hit
+		if (Physics.Raycast (ray, out hit)) {
+			GameObject target = hit.collider.gameObject;
+			return hit.transform.gameObject;
+		}
+		else
+			return null;
+	}
+
+	void trySwapBlock(){
+		if (GameManager.blocks[toColumn, toRow]) {
+
+			Block block_1 = GameManager.blocks [swipeFromColumn, swipeFromRow];
+			Block block_2 = GameManager.blocks [toColumn, toRow];
+
+			// check to see if swap is valid
+			validSwap = checkForValidSwap ();
+			StartCoroutine (animateBlockMove (block_1, block_2));
+
+		}
+	}
+
+	IEnumerator animateBlockMove(Block block_1, Block block_2){
+
+		// swap block positions
+		while (block_1.transform.position != new Vector3 (toColumn, toRow, 0)) {
+			block_1.transform.position = Vector3.Lerp (block_1.transform.position, new Vector2 (toColumn, toRow), (float)Time.deltaTime * smoothing);
+			block_2.transform.position = Vector3.Lerp (block_2.transform.position, new Vector2 (swipeFromColumn, swipeFromRow), (float)Time.deltaTime * smoothing);
+
+			yield return null; 
+		}
+
+		Debug.Log ("finish");
+		// if not valid pair swap back
+		if (!validSwap) {
+			while (block_1.transform.position != new Vector3 (swipeFromColumn, swipeFromRow, 0)) {
+				
+				block_2.transform.position = Vector3.Lerp (block_2.transform.position, new Vector2 (toColumn, toRow), (float)Time.deltaTime * smoothing);
+				block_1.transform.position = Vector3.Lerp (block_1.transform.position, new Vector2 (swipeFromColumn, swipeFromRow), (float)Time.deltaTime * smoothing);
+			
+				yield return null; 
+			}
+		} else {
+			// if valid pair, swap the block grid
+			Block tempBlock = GameManager.blocks [swipeFromColumn, swipeFromRow];
+			GameManager.blocks [swipeFromColumn, swipeFromRow] = GameManager.blocks [toColumn, toRow];
+			GameManager.blocks [toColumn, toRow] = tempBlock;
+
+			// remove chains
+			Chain.removeChains ();
+		}
+		yield return null;
+	}
+
+	// check to see if the swap pair is in the list of all possible swaps
+	bool checkForValidSwap(){
+		if (AllPossibleSwaps.swaps.Count != 0) {
+			foreach (int[] swap in AllPossibleSwaps.swaps) {
+				if ((swipeFromColumn == swap [0] && swipeFromRow == swap [1] && toColumn == swap [2] && toRow == swap [3])
+				   || (toColumn == swap [0] && toRow == swap [1] && swipeFromColumn == swap [2] && swipeFromRow == swap [3])) {
+					return true;
+				} 
+			}
+			return false;
+		}
+		return false;
+	}
+}

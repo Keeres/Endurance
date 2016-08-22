@@ -1,0 +1,28 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using LitJson;
+
+public class Grid : MonoBehaviour {
+
+	public static int width = 8;
+	public static int height = 8;
+	public ReadJson readJson;
+	public GameObject backdrop;
+
+	void Start () {
+		JsonData LevelLayout = readJson.getLevel ("Level_1");
+	
+		for (int i=0; i<width; i++) {
+			for(int j=0; j<height; j++){
+				if((int)LevelLayout["tiles"][i][j] == 1)
+					Instantiate(backdrop, new Vector2(i, j),  Quaternion.identity);
+			}
+		}
+	}
+
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}

@@ -1,0 +1,162 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using LitJson;
+using UnityEngine.UI;
+
+public class GameManager : MonoBehaviour {
+
+	public static int nRow = 9;                                    // Number of rows in the game board
+	public static int nCol = 9;                                    // Number of columns in the game board
+	public ReadJson readJson;
+	public GameObject tile_1;								   // Tile tpye 1
+	public GameObject tile_2;								   // Tile tpye 2
+	public Block[] blocks;                                    // Number of types of different blocks used 
+	public static int [,] gameBoard = new int[nRow, nCol];         // Gameboard size
+
+	void Start () {
+		parseJsonData ();
+		initializeGameBoard ();
+		initializeBlocks ();
+		//fillHoles ();
+	//	test();
+	}
+
+	// JSON
+	void parseJsonData(){
+		JsonData LevelLayout = readJson.getLevel ("Level_1");
+
+		// JsonData [0,0] is top left, reorder so that [0,0] is at bottom left for game board
+		for (int i = 0; i < nRow; i++) {
+			for (int j = 0; j < nCol; j++) {
+				gameBoard[j, i] = (int)LevelLayout["tiles"][nRow-1-i][j];
+			}
+		}
+	}
+
+	// INITIALIZE //
+	// Alternates between two different blocks
+	void initializeGameBoard(){
+		// Every even row starts with tile_1 and alternates with tile_2
+		// Every even row starts with tile_2 and alternates with tile_1
+
+		for (int row = 0; row<GameManager.nRow; row++) {
+			for (int col = 0; col<GameManager. nCol; col++){
+				if (gameBoard [col, row] == 1) {
+					if (row % 2 == 0 && (row * nRow + col) % 2 == 0) {
+						Instantiate (tile_1, new Vector3 (col, row, 1), Quaternion.identity);
+					} else if (row % 2 == 0 && (row * nRow + col) % 2 != 0) {
+						Instantiate (tile_2, new Vector3 (col, row, 1), Quaternion.identity);
+					}
+					if (row % 2 != 0 && (row * nRow + col) % 2 != 0) {
+						Instantiate (tile_2, new Vector3 (col, row, 1), Quaternion.identity);
+					} else if (row % 2 != 0 && (row * nRow + col) % 2 == 0) {
+						Instantiate (tile_1, new Vector3 (col, row, 1), Quaternion.identity);
+					}
+				}
+			}
+		}
+	}
+
+	void initializeBlocks(){
+		for (int i = 0; i < nCol; i++) {
+			for (int j = 0; j < nRow; j++) {
+				if (gameBoard [j , i] == 1) {
+					spawnAt (j, i);
+				}
+			}
+		}
+	}
+
+	// LOCATING BLOCK POSITION IN GRID//
+	public static Block blockAt(float x, float y) {
+		// Find block at Position (x, y)
+		Block[] block = GameObject.FindObjectsOfType<Block>();
+		foreach (Block b in block) {
+			if ((Vector2)b.transform.position == new Vector2 (x, y)) {
+				return b;
+			}
+		}
+		return null;
+	}
+
+	public static Block blockRange(float x, float y) {
+		// Find Block at Position (x, y)
+		Block[] blocks = GameObject.FindObjectsOfType<Block>();
+		foreach (Block b in blocks)
+			if ((b.transform.position.x == x && b.transform.position.y >= y - 1)
+				&& (b.transform.position.x == x && b.transform.position.y <= y)) {
+				return b;
+			}
+		return null;
+	}
+
+
+	// Spawn block at x,y //
+	public void spawnAt(int col, int row) {
+		int index = Random.Range (0, blocks.Length);
+		Block block;
+
+		while ((findTag (col-1, row) == blocks[index].tag && findTag (col-2, row) == blocks [index].tag)
+			|| (findTag (col, row - 1) == blocks[index].tag && findTag (col, row-2) == blocks [index].tag)) {
+
+			index = Random.Range (0, blocks.Length);
+		};
+
+		block = (Block)Instantiate (blocks [index], new Vector2 (col, row), Quaternion.identity);
+
+		block.x = col;
+		block.y = row;
+	}
+
+
+
+	string findTag(int col, int row){
+		if (blockAt (col, row)) {
+			Block block = blockAt (col, row);
+			return (string)block.tag;
+		} 
+		return "none";
+	}
+
+	// Returns an array of columns. In each column is the blocks that needs to be moved to fill the holes
+	List<Block[]> fillHoles(){
+		List<Block[]> columns;
+
+		for (int column = 0; column<nCol; column++){
+			Block[] array;
+			for (int row = 0; row<nRow; row++){
+				if (gameBoard [column, row] == 1 && !blockAt (column, row)) {		// If a tile exists and no block is occupying it
+					for (int lookup = row + 1; lookup<nRow; lookup++) {
+						if (blockAt (column, lookup)) {
+							var block = blockAt (column, lookup);
+							block.fallingDown(new Vector2(column, lookup), new Vector2(column, row));
+							//Move blocks accordinglly
+						}
+					}
+				}
+			}
+		}
+		return null;
+	}
+
+	// If touch insdie the gameboard
+	bool convertPoint(Vector2 point) {
+		Debug.Log (point.x);
+		Debug.Log (point.y);
+		if ((point.x >= 0 && point.x < nCol) && (point.y >= 0 && point.y < nRow)) {
+			Debug.Log (point.x);
+			Debug.Log (point.y);
+
+			return true;
+		} else {
+			return false; // invalid position
+			}
+	}
+		
+	// Update is called once per frame
+	void Update () {
+		
+	}
+}
+

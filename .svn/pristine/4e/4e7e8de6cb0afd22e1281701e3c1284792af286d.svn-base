@@ -1,0 +1,103 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
+public class Gap : MonoBehaviour {
+	public static List<int[]> columns = new List<int[]>();
+	static int smoothing = 8;
+	static int arrayCount = 0;
+	static float delayTime = 0;
+	static public Gap instance; //the instance of our class that will do the work
+	static int currentColumn = 0; 
+
+	void Awake(){ //called when an instance awakes in the game
+		instance = this; //set our static reference to our newly initialized instance
+	}
+
+	public static void fillGaps(){
+
+		findGaps();
+		animateFallingBlocks ();
+	}
+
+	// Returns an array of columns. In each column is the blocks that needs to be moved to fill the holes
+	public static void findGaps(){
+		columns.Clear ();
+
+		for (int column = 0; column<GameManager.nCol; column++){
+
+			for (int row = 0; row < GameManager.nRow; row++) {
+				// If a tile exists and no block is occupying it
+				if (GameManager.gameBoard [column, row] == 1 && GameManager.blocks [column, row] == null) {		
+					//Debug.Log (GameManager.blocks [column, row] + " " +column+ " " + row);
+
+					for (int lookUp = row + 1; lookUp < GameManager.nRow; lookUp++) {
+						if (GameManager.blocks [column, lookUp] != null) {
+							// assign current block with the one above it
+
+							int [] array = new int[] {-1, -1};
+
+							// set the current block as the block above it, and the one above it to null
+							// this only modified the col and row of the blocks in the grid but does not actually transfrom the position of the blocks
+							GameManager.blocks [column, row] = GameManager.blocks [column, lookUp];
+							GameManager.blocks [column, lookUp] = null;
+
+							array [0] = column;
+							array [1] = row;
+
+							columns.Add(array);
+
+							break;
+						}
+					}
+
+				}
+			}
+		}
+	}
+
+
+	public static void animateFallingBlocks(){
+
+		Debug.Log ("falling");
+		arrayCount = 0;
+
+		// Introduce a delay between each block falling in the same column to produce a more natural animation
+		foreach (int[] array in columns) {
+			if (array [0] == currentColumn) {
+				delayTime = delayTime + 0.05f;
+			} else {
+				delayTime = 0;
+			}
+
+			// The col, row of the block is set, but still need to transform the block sprite to the right coordinate
+			Block block = GameManager.blocks [array [0], array [1]];
+			Vector3 newPosition = new Vector3 (array [0], array [1], 0);
+			instance.StartCoroutine (instance.animate (block, newPosition, delayTime));
+
+			currentColumn = array [0];
+		}
+	}
+
+	public IEnumerator animate(Block block, Vector3 newPosition, float delay){
+		yield return new WaitForSeconds (delay);
+
+		// transform each block to it's new position
+		while (block.transform.position != newPosition) {
+			block.transform.position = Vector3.MoveTowards (block.transform.position, newPosition, (float)Time.deltaTime * smoothing);
+
+			yield return null;
+		}
+		yield return null;
+
+		// counts to ensure all blocks has moved to the right position before continue
+		arrayCount++;
+
+		if (arrayCount == columns.Count) {
+			Debug.Log ("finishing falling");
+			// find all possible swaps and detect chains after finished filling the gap
+			AllPossibleSwaps.detectPossibleSwaps ();
+			Chain.removeChains ();
+		}
+	}
+}

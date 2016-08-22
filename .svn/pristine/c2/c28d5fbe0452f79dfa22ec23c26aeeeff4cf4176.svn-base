@@ -1,0 +1,93 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
+public class Grid : MonoBehaviour {
+	
+	public GameObject backdrop_1;
+	public GameObject backdrop_2;
+	public GameObject[] blocks;
+	private Block [] block = new Block[9];
+	public static int [,] gameBoard = new int[GameManager.nRow, GameManager.nCol];
+//	private int count = 0;
+
+	void Start () {
+		initializeGameBoard ();
+		initializeBlocks ();
+	//	test ();
+	}
+		
+	// Alternates between two different blocks
+	void initializeGameBoard(){
+		for (int i = 0; i<GameManager.nRow; i++) {
+			for (int j=0; j<GameManager.nCol; j++){
+				if (gameBoard [i, j] == 1) {
+					if (i % 2 == 0 && (i * GameManager.nRow + j) % 2 == 0) {
+						Instantiate (backdrop_1, new Vector3 (i, j, 1), Quaternion.identity);
+					} else if (i % 2 == 0 && (i * GameManager.nRow + j) % 2 != 0) {
+						Instantiate (backdrop_2, new Vector3 (i, j, 1), Quaternion.identity);
+					}
+					if (i % 2 != 0 && (i * GameManager.nRow + j) % 2 != 0) {
+						Instantiate (backdrop_2, new Vector3 (i, j, 1), Quaternion.identity);
+					} else if (i % 2 != 0 && (i * GameManager.nRow + j) % 2 == 0) {
+						Instantiate (backdrop_1, new Vector3 (i, j, 1), Quaternion.identity);
+					}
+				}
+			}
+		}
+	}
+
+	void test(){
+	//	blockAt (1, 1);
+		block [1] = blockAt (1, 1);
+		Debug.Log (block [1].transform.position.y);
+	}
+		
+	void initializeBlocks(){
+		for (int i = 0; i < GameManager.nRow; i++) {
+			for (int j = 0; j < GameManager.nCol; j++) {
+				if (gameBoard [i, j] == 1) {
+					spawnAt (i, j);
+				}
+			}
+		}
+	}
+
+	public static Block blockAt(float x, float y) {
+		// Find block at Position (x, y)
+		Block[] block = GameObject.FindObjectsOfType<Block>();
+		foreach (Block b in block) {
+			if ((Vector2)b.transform.position == new Vector2 (x, y)) {
+				Debug.Log ("ASD");
+				return b;
+			}
+		}
+		return null;
+	}
+
+	public static Block blockRange(float x, float y) {
+		// Find Block at Position (x, y)
+		Block[] blocks = GameObject.FindObjectsOfType<Block>();
+		foreach (Block b in blocks)
+			if ((b.transform.position.x == x && b.transform.position.y >= y - 1)
+				&& (b.transform.position.x == x && b.transform.position.y <= y)) {
+				return b;
+			}
+		return null;
+	}
+
+	// Spawn block at x,y
+	public void spawnAt(float row, float col) {
+		int index = Random.Range(0, blocks.Length);
+		Instantiate(blocks[index], new Vector2(row, col), Quaternion.identity);
+
+	}
+
+	// Update is called once per frame
+	void Update () {
+	//	for (int x = 0; x < width; ++x)
+	//		if (!blockRange (x, height+1 - 1)) {
+	//				spawnAt (x, height+1 - 1);
+	//		}
+	}
+}

@@ -1,0 +1,450 @@
+fileFormatVersion: 2
+guid: 52813da2c6dee4aea919b669f6864564
+timeCreated: 1465837892
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SamuraiDead_0
+    21300002: SamuraiDead_1
+    21300004: SamuraiDead_2
+    21300006: SamuraiDead_3
+    21300008: SamuraiDead_4
+    21300010: SamuraiDead_5
+    21300012: SamuraiDead_6
+    21300014: SamuraiDead_7
+    21300016: SamuraiDead_8
+    21300018: SamuraiDead_9
+    21300020: SamuraiDead_10
+    21300022: SamuraiDead_11
+    21300024: SamuraiDead_12
+    21300026: SamuraiDead_13
+    21300028: SamuraiDead_14
+    21300030: SamuraiDead_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SamuraiDead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.154541, y: 119}
+        - {x: -56.15454, y: 72}
+        - {x: -63.15454, y: 43}
+        - {x: -71.15454, y: 2}
+        - {x: -71.15454, y: -46}
+        - {x: -48.15454, y: -127}
+        - {x: -36.15454, y: -136}
+        - {x: 62.84546, y: -136}
+        - {x: 76.84546, y: -48}
+        - {x: 76.84546, y: 119}
+    - name: SamuraiDead_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.881821, y: 129}
+        - {x: -62.88182, y: 113}
+        - {x: -55.88182, y: 101}
+        - {x: -49.88182, y: 97}
+        - {x: -80.88182, y: 88}
+        - {x: -80.88182, y: -135}
+        - {x: 65.11818, y: -135}
+        - {x: 68.11818, y: -125}
+        - {x: 68.11818, y: 90}
+        - {x: 55.11818, y: 129}
+      - - {x: -178.88182, y: -18}
+        - {x: -175.88182, y: -17}
+        - {x: -175.88182, y: -2}
+        - {x: -177.88182, y: 0}
+        - {x: -178.88182, y: 0}
+      - - {x: -178.88182, y: 106}
+        - {x: -175.88182, y: 107}
+        - {x: -175.88182, y: 113}
+        - {x: -177.88182, y: 115}
+        - {x: -178.88182, y: 115}
+    - name: SamuraiDead_2
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.8909, y: 134}
+        - {x: -100.1091, y: 134}
+        - {x: -101.1091, y: 129}
+        - {x: -101.1091, y: -7}
+        - {x: -87.1091, y: -51}
+        - {x: -47.1091, y: -134}
+        - {x: 6.8908997, y: -134}
+        - {x: 25.8909, y: -128}
+        - {x: 54.8909, y: -115}
+        - {x: 54.8909, y: 54}
+    - name: SamuraiDead_3
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.336365, y: 135}
+        - {x: -62.336365, y: 135}
+        - {x: -115.336365, y: 117}
+        - {x: -120.336365, y: 92}
+        - {x: -120.336365, y: -3}
+        - {x: -91.336365, y: -63}
+        - {x: -41.336365, y: -133}
+        - {x: -33.336365, y: -134}
+        - {x: 1.6636353, y: -134}
+        - {x: 53.663635, y: -113}
+        - {x: 53.663635, y: -53}
+        - {x: 42.663635, y: 38}
+    - name: SamuraiDead_4
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.06366, y: 131}
+        - {x: -68.06366, y: 131}
+        - {x: -75.06366, y: 130}
+        - {x: -139.06366, y: 86}
+        - {x: -139.06366, y: -11}
+        - {x: -97.06366, y: -76}
+        - {x: -49.06366, y: -133}
+        - {x: 6.9363403, y: -133}
+        - {x: 51.93634, y: -104}
+        - {x: 51.93634, y: -28}
+        - {x: 32.93634, y: 32}
+    - name: SamuraiDead_5
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.209106, y: -39}
+        - {x: 33.209106, y: 40}
+        - {x: -20.790894, y: 134}
+        - {x: -83.79089, y: 134}
+        - {x: -129.7909, y: 117}
+        - {x: -129.7909, y: -4}
+        - {x: -104.79089, y: -75}
+        - {x: -63.790894, y: -133}
+        - {x: 53.209106, y: -133}
+        - {x: 54.209106, y: -125}
+        - {x: 54.209106, y: -77}
+        - {x: 50.209106, y: -71}
+    - name: SamuraiDead_6
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.018188, y: 135}
+        - {x: -61.01819, y: 135}
+        - {x: -123.01819, y: 98}
+        - {x: -123.01819, y: -12}
+        - {x: -114.01819, y: -62}
+        - {x: -82.01819, y: -65}
+        - {x: -42.01819, y: -131}
+        - {x: -34.01819, y: -134}
+        - {x: -7.0181885, y: -134}
+        - {x: 53.98181, y: -109}
+        - {x: 53.98181, y: -34}
+        - {x: 44.98181, y: 13}
+    - name: SamuraiDead_7
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -83.24548, y: 135}
+        - {x: -115.24548, y: 94}
+        - {x: -115.24548, y: -28}
+        - {x: -101.24548, y: -50}
+        - {x: -88.24548, y: -57}
+        - {x: -69.24548, y: -51}
+        - {x: -48.245483, y: -127}
+        - {x: -33.245483, y: -134}
+        - {x: 21.754517, y: -134}
+        - {x: 47.754517, y: -131}
+        - {x: 54.754517, y: -113}
+        - {x: 54.754517, y: 35}
+        - {x: 14.754517, y: 135}
+    - name: SamuraiDead_8
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.97278, y: 135}
+        - {x: -106.97278, y: 126}
+        - {x: -106.97278, y: 106}
+        - {x: -98.97278, y: 88}
+        - {x: -92.97278, y: 86}
+        - {x: -106.97278, y: 64}
+        - {x: -106.97278, y: -57}
+        - {x: -74.97278, y: -134}
+        - {x: 32.02722, y: -134}
+        - {x: 56.02722, y: -119}
+        - {x: 56.02722, y: 31}
+        - {x: 25.027222, y: 135}
+    - name: SamuraiDead_9
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.69995, y: 134}
+        - {x: -83.69995, y: 131}
+        - {x: -98.69995, y: 95}
+        - {x: -98.69995, y: -44}
+        - {x: -71.69995, y: -134}
+        - {x: 57.30005, y: -134}
+        - {x: 57.30005, y: 27}
+        - {x: 22.300049, y: 134}
+    - name: SamuraiDead_10
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.072754, y: 133}
+        - {x: -0.9272461, y: 123}
+        - {x: -5.927246, y: 113}
+        - {x: -88.927246, y: 119}
+        - {x: -89.927246, y: 102}
+        - {x: -89.927246, y: -74}
+        - {x: -37.927246, y: -134}
+        - {x: 26.072754, y: -134}
+        - {x: 61.072754, y: -117}
+        - {x: 61.072754, y: 27}
+        - {x: 33.072754, y: 133}
+    - name: SamuraiDead_11
+      rect:
+        serializedVersion: 2
+        x: 3641
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.84546, y: 128}
+        - {x: 46.84546, y: 130}
+        - {x: -14.154541, y: 130}
+        - {x: -82.15454, y: 116}
+        - {x: -82.15454, y: -52}
+        - {x: -75.15454, y: -71}
+        - {x: -46.15454, y: -135}
+        - {x: 29.845459, y: -135}
+        - {x: 49.84546, y: -125}
+        - {x: 60.84546, y: -109}
+        - {x: 66.84546, y: -67}
+        - {x: 66.84546, y: 34}
+    - name: SamuraiDead_12
+      rect:
+        serializedVersion: 2
+        x: 3972
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.618164, y: 128}
+        - {x: -12.381836, y: 128}
+        - {x: -55.381836, y: 123}
+        - {x: -76.381836, y: 60}
+        - {x: -76.381836, y: -58}
+        - {x: -40.381836, y: -135}
+        - {x: 45.618164, y: -135}
+        - {x: 66.618164, y: -105}
+        - {x: 71.618164, y: -59}
+        - {x: 71.618164, y: 53}
+    - name: SamuraiDead_13
+      rect:
+        serializedVersion: 2
+        x: 4303
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.10913, y: 124}
+        - {x: -72.10913, y: 89}
+        - {x: -72.10913, y: -39}
+        - {x: -55.10913, y: -135}
+        - {x: 58.89087, y: -135}
+        - {x: 69.89087, y: -120}
+        - {x: 76.89087, y: -84}
+        - {x: 76.89087, y: 124}
+    - name: SamuraiDead_14
+      rect:
+        serializedVersion: 2
+        x: 4634
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.836426, y: 119}
+        - {x: -61.836426, y: 90}
+        - {x: -66.836426, y: 3}
+        - {x: -66.836426, y: -26}
+        - {x: -61.836426, y: -29}
+        - {x: -43.836426, y: -127}
+        - {x: -34.836426, y: -136}
+        - {x: 64.163574, y: -136}
+        - {x: 78.163574, y: -38}
+        - {x: 78.163574, y: 118}
+        - {x: 77.163574, y: 119}
+    - name: SamuraiDead_15
+      rect:
+        serializedVersion: 2
+        x: 4965
+        y: 0
+        width: 331
+        height: 352
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.06372, y: 119}
+        - {x: -62.06372, y: 90}
+        - {x: -67.06372, y: 3}
+        - {x: -67.06372, y: -26}
+        - {x: -62.06372, y: -29}
+        - {x: -44.06372, y: -127}
+        - {x: -35.06372, y: -136}
+        - {x: 63.93628, y: -136}
+        - {x: 77.93628, y: -38}
+        - {x: 77.93628, y: 118}
+        - {x: 76.93628, y: 119}
+      - - {x: -177.06372, y: 10}
+        - {x: -179.06372, y: 10}
+        - {x: -179.06372, y: -20}
+        - {x: -175.06372, y: -19}
+        - {x: -173.06372, y: -18}
+        - {x: -173.06372, y: 0}
+        - {x: -174.06372, y: 6}
+      - - {x: -179.06372, y: 61}
+        - {x: -176.06372, y: 62}
+        - {x: -176.06372, y: 77}
+        - {x: -178.06372, y: 79}
+        - {x: -179.06372, y: 79}
+      - - {x: -179.06372, y: 117}
+        - {x: -179.06372, y: 105}
+        - {x: -177.06372, y: 105}
+        - {x: -173.06372, y: 108}
+        - {x: -173.06372, y: 113}
+        - {x: -174.06372, y: 115}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: aa3a162d2935740b4b0088cfa29d63fc
+timeCreated: 1465435435
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Knight-Dead_0
+    21300002: Knight-Dead_1
+    21300004: Knight-Dead_2
+    21300006: Knight-Dead_3
+    21300008: Knight-Dead_4
+    21300010: Knight-Dead_5
+    21300012: Knight-Dead_6
+    21300014: Knight-Dead_7
+    21300016: Knight-Dead_8
+    21300018: Knight-Dead_9
+    21300020: Knight-Dead_10
+    21300022: Knight-Dead_11
+    21300024: Knight-Dead_12
+    21300026: Knight-Dead_13
+    21300028: Knight-Dead_14
+    21300030: Knight-Dead_15
+    21300032: KnightDead_0
+    21300034: KnightDead_1
+    21300036: KnightDead_2
+    21300038: KnightDead_3
+    21300040: KnightDead_4
+    21300042: KnightDead_5
+    21300044: KnightDead_6
+    21300046: KnightDead_7
+    21300048: KnightDead_8
+    21300050: KnightDead_9
+    21300052: KnightDead_10
+    21300054: KnightDead_11
+    21300056: KnightDead_12
+    21300058: KnightDead_13
+    21300060: KnightDead_14
+    21300062: KnightDead_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 400
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KnightDead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.40542603, y: 99.5}
+        - {x: -48.594574, y: 65.5}
+        - {x: -45.594574, y: 57.5}
+        - {x: -39.594574, y: 44.5}
+        - {x: -33.594574, y: 25.5}
+        - {x: -21.594574, y: 10.5}
+        - {x: -25.594574, y: 10.5}
+        - {x: -54.594574, y: 58.5}
+        - {x: -64.594574, y: 65.5}
+        - {x: -90.594574, y: 73.5}
+        - {x: -90.594574, y: -69.5}
+        - {x: -33.594574, y: -112.5}
+        - {x: 97.405426, y: -112.5}
+        - {x: 97.405426, y: 90.5}
+        - {x: 65.405426, y: 99.5}
+    - name: KnightDead_1
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.851, y: 84.5}
+        - {x: 59.850998, y: 101.5}
+        - {x: 4.850998, y: 101.5}
+        - {x: -31.149002, y: 91.5}
+        - {x: -62.149002, y: 52.5}
+        - {x: -61.149002, y: 45.5}
+        - {x: -58.149002, y: 41.5}
+        - {x: -54.149002, y: 35.5}
+        - {x: -69.149, y: 55.5}
+        - {x: -100.149, y: 63.5}
+        - {x: -102.149, y: 61.5}
+        - {x: -102.149, y: 25.5}
+        - {x: -24.149002, y: -112.5}
+        - {x: 77.851, y: -112.5}
+        - {x: 92.851, y: -89.5}
+        - {x: 100.851, y: -65.5}
+        - {x: 100.851, y: 10.5}
+    - name: KnightDead_2
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79.7966, y: 85.5}
+        - {x: 39.7966, y: 100.5}
+        - {x: -21.2034, y: 100.5}
+        - {x: -41.2034, y: 77.5}
+        - {x: -46.2034, y: 70.5}
+        - {x: -115.2034, y: 59.5}
+        - {x: -115.2034, y: 7.5}
+        - {x: -37.2034, y: -112.5}
+        - {x: 73.7966, y: -112.5}
+        - {x: 90.7966, y: -87.5}
+        - {x: 99.7966, y: -54.5}
+        - {x: 99.7966, y: 2.5}
+    - name: KnightDead_3
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.742065, y: 80.5}
+        - {x: 17.742065, y: 99.5}
+        - {x: -29.257935, y: 99.5}
+        - {x: -64.257935, y: 79.5}
+        - {x: -127.257935, y: 52.5}
+        - {x: -127.257935, y: 2.5}
+        - {x: -8.257935, y: -112.5}
+        - {x: 43.742065, y: -112.5}
+        - {x: 95.742065, y: -83.5}
+        - {x: 96.742065, y: -80.5}
+        - {x: 96.742065, y: 10.5}
+    - name: KnightDead_4
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.312195, y: 95.5}
+        - {x: -138.3122, y: 33.5}
+        - {x: -138.3122, y: 16.5}
+        - {x: -132.3122, y: -2.5}
+        - {x: -88.312195, y: -59.5}
+        - {x: -15.312195, y: -111.5}
+        - {x: 27.687805, y: -111.5}
+        - {x: 80.687805, y: -94.5}
+        - {x: 90.687805, y: -68.5}
+        - {x: 90.687805, y: 13.5}
+        - {x: 3.6878052, y: 95.5}
+    - name: KnightDead_5
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.633179, y: 97.5}
+        - {x: -40.36682, y: 97.5}
+        - {x: -53.36682, y: 86.5}
+        - {x: -132.36682, y: 36.5}
+        - {x: -134.36682, y: 34.5}
+        - {x: -134.36682, y: -5.5}
+        - {x: -100.36682, y: -111.5}
+        - {x: 92.63318, y: -111.5}
+        - {x: 92.63318, y: -84.5}
+        - {x: 89.63318, y: -73.5}
+        - {x: 92.63318, y: -57.5}
+        - {x: 92.63318, y: 8.5}
+    - name: KnightDead_6
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.421265, y: 98.5}
+        - {x: -64.421265, y: 92.5}
+        - {x: -129.42126, y: 48.5}
+        - {x: -129.42126, y: 21.5}
+        - {x: -124.421265, y: 10.5}
+        - {x: -118.421265, y: 2.5}
+        - {x: -88.421265, y: -48.5}
+        - {x: -41.421265, y: -112.5}
+        - {x: 90.578735, y: -112.5}
+        - {x: 95.578735, y: -44.5}
+        - {x: 95.578735, y: -5.5}
+        - {x: 25.578735, y: 98.5}
+    - name: KnightDead_7
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.475708, y: 99.5}
+        - {x: -125.47571, y: 46.5}
+        - {x: -125.47571, y: 29.5}
+        - {x: -119.47571, y: 10.5}
+        - {x: -80.47571, y: -51.5}
+        - {x: -10.475708, y: -112.5}
+        - {x: 39.524292, y: -112.5}
+        - {x: 97.52429, y: -90.5}
+        - {x: 97.52429, y: 10.5}
+        - {x: 39.524292, y: 99.5}
+    - name: KnightDead_8
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.470093, y: 100.5}
+        - {x: -33.529907, y: 100.5}
+        - {x: -39.529907, y: 97.5}
+        - {x: -70.52991, y: 47.5}
+        - {x: -120.52991, y: 55.5}
+        - {x: -120.52991, y: 6.5}
+        - {x: -25.529907, y: -112.5}
+        - {x: 84.47009, y: -112.5}
+        - {x: 98.47009, y: -68.5}
+        - {x: 98.47009, y: 9.5}
+        - {x: 65.47009, y: 77.5}
+    - name: KnightDead_9
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79.41553, y: 85.5}
+        - {x: 39.415527, y: 100.5}
+        - {x: -21.584473, y: 100.5}
+        - {x: -41.584473, y: 77.5}
+        - {x: -46.584473, y: 70.5}
+        - {x: -115.58447, y: 59.5}
+        - {x: -115.58447, y: 7.5}
+        - {x: -37.584473, y: -112.5}
+        - {x: 73.41553, y: -112.5}
+        - {x: 90.41553, y: -87.5}
+        - {x: 99.41553, y: -54.5}
+        - {x: 99.41553, y: 2.5}
+    - name: KnightDead_10
+      rect:
+        serializedVersion: 2
+        x: 3970
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.361084, y: 101.5}
+        - {x: -20.638916, y: 101.5}
+        - {x: -68.638916, y: 69.5}
+        - {x: -110.638916, y: 63.5}
+        - {x: -110.638916, y: 28.5}
+        - {x: -79.638916, y: -46.5}
+        - {x: -24.638916, y: -112.5}
+        - {x: 86.361084, y: -112.5}
+        - {x: 100.361084, y: -76.5}
+        - {x: 100.361084, y: -6.5}
+        - {x: 74.361084, y: 69.5}
+    - name: KnightDead_11
+      rect:
+        serializedVersion: 2
+        x: 4367
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.69336, y: 101.5}
+        - {x: -67.69336, y: 52.5}
+        - {x: -65.69336, y: 44.5}
+        - {x: -63.69336, y: 41.5}
+        - {x: -64.69336, y: 42.5}
+        - {x: -66.69336, y: 46.5}
+        - {x: -71.69336, y: 53.5}
+        - {x: -105.69336, y: 88.5}
+        - {x: -105.69336, y: -67.5}
+        - {x: -23.69336, y: -112.5}
+        - {x: 66.30664, y: -112.5}
+        - {x: 91.30664, y: -105.5}
+        - {x: 100.30664, y: -67.5}
+        - {x: 100.30664, y: 43.5}
+        - {x: 95.30664, y: 101.5}
+    - name: KnightDead_12
+      rect:
+        serializedVersion: 2
+        x: 4764
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.747803, y: 100.5}
+        - {x: -61.747803, y: 56.5}
+        - {x: -59.747803, y: 48.5}
+        - {x: -43.747803, y: 24.5}
+        - {x: -66.7478, y: 56.5}
+        - {x: -99.7478, y: 69.5}
+        - {x: -99.7478, y: 30.5}
+        - {x: -82.7478, y: -15.5}
+        - {x: -4.7478027, y: -112.5}
+        - {x: 85.2522, y: -112.5}
+        - {x: 100.2522, y: -93.5}
+        - {x: 100.2522, y: 91.5}
+        - {x: 77.2522, y: 100.5}
+    - name: KnightDead_13
+      rect:
+        serializedVersion: 2
+        x: 5161
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.802246, y: 100.5}
+        - {x: -55.802246, y: 61.5}
+        - {x: -47.802246, y: 40.5}
+        - {x: -36.802246, y: 20.5}
+        - {x: -35.802246, y: 18.5}
+        - {x: -28.802246, y: 10.5}
+        - {x: -36.802246, y: 20.5}
+        - {x: -43.802246, y: 31.5}
+        - {x: -58.802246, y: 56.5}
+        - {x: -87.802246, y: 70.5}
+        - {x: -94.802246, y: 67.5}
+        - {x: -94.802246, y: -78.5}
+        - {x: -44.802246, y: -112.5}
+        - {x: 99.197754, y: -112.5}
+        - {x: 99.197754, y: 96.5}
+        - {x: 86.197754, y: 100.5}
+    - name: KnightDead_14
+      rect:
+        serializedVersion: 2
+        x: 5558
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98.14331, y: 90.5}
+        - {x: 66.14331, y: 99.5}
+        - {x: 1.1433105, y: 99.5}
+        - {x: -48.85669, y: 65.5}
+        - {x: -44.85669, y: 57.5}
+        - {x: -38.85669, y: 44.5}
+        - {x: -32.85669, y: 25.5}
+        - {x: -20.85669, y: 10.5}
+        - {x: -24.85669, y: 10.5}
+        - {x: -53.85669, y: 58.5}
+        - {x: -63.85669, y: 65.5}
+        - {x: -88.85669, y: 71.5}
+        - {x: -89.85669, y: 68.5}
+        - {x: -89.85669, y: 32.5}
+        - {x: -71.85669, y: -31.5}
+        - {x: -7.8566895, y: -111.5}
+        - {x: -1.8566895, y: -112.5}
+        - {x: 70.14331, y: -112.5}
+        - {x: 81.14331, y: -109.5}
+        - {x: 98.14331, y: -69.5}
+    - name: KnightDead_15
+      rect:
+        serializedVersion: 2
+        x: 5955
+        y: 0
+        width: 397
+        height: 349
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98.08911, y: 90.5}
+        - {x: 66.08911, y: 99.5}
+        - {x: 1.0891113, y: 99.5}
+        - {x: -48.91089, y: 65.5}
+        - {x: -44.91089, y: 57.5}
+        - {x: -38.91089, y: 44.5}
+        - {x: -32.91089, y: 25.5}
+        - {x: -20.910889, y: 10.5}
+        - {x: -24.910889, y: 10.5}
+        - {x: -53.91089, y: 58.5}
+        - {x: -63.91089, y: 65.5}
+        - {x: -88.91089, y: 71.5}
+        - {x: -89.91089, y: 68.5}
+        - {x: -89.91089, y: 32.5}
+        - {x: -71.91089, y: -31.5}
+        - {x: -7.9108887, y: -111.5}
+        - {x: -1.9108887, y: -112.5}
+        - {x: 70.08911, y: -112.5}
+        - {x: 81.08911, y: -109.5}
+        - {x: 98.08911, y: -69.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

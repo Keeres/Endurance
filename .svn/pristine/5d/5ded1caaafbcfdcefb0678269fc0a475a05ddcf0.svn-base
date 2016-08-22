@@ -1,0 +1,126 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class Mouse : MonoBehaviour {
+	int swipeFromColumn = -1;
+	int swipeFromRow = -1;
+	int toColumn = 0;
+	int toRow = 0;
+	private Vector3 initialMousePosition;
+	private int threshold = 9;
+	private int smoothing = 10;              // smooth out the aniamtion
+	Color32 startcolor;
+
+	// SWIPE TO SWAP THE BLOCKS
+	void OnMouseDown (){
+
+		if (Input.GetMouseButtonDown (0)) {
+			Debug.Log ("mouse down");
+			initialMousePosition = Input.mousePosition;
+
+			// Determine is the mouse has clicked within the gameboard
+			GameObject tile = getClickedGameObject();          
+			if (tile != null) {
+				var col = tile.transform.position.x;
+				var row = tile.transform.position.y;
+
+				// If a tile piece is found (i.e. mouse click inside the gameboard), find if a block is inside the tile
+				if (GameManager.blockAt (col, row)) {
+		
+					// the coordinate position of the block being swiped from
+					swipeFromRow = (int)row;
+					swipeFromColumn = (int)col;
+				}	
+			}
+		}
+	}
+
+	void OnMouseDrag(){
+		// if nothing is being swiped end action
+		if (swipeFromColumn < 0) {
+			return;
+		}
+
+		toRow = swipeFromRow;
+		toColumn = swipeFromColumn;
+		var currentMousePosition = Input.mousePosition - initialMousePosition;
+		currentMousePosition.Normalize ();    // normalize so the the length is one while direction is the same
+
+		// Normalized distance mouse traveled
+		var delta = Vector3.Dot (currentMousePosition, Vector3.up);   // vector3.up is the shorthand of Vector3(0, 1, 0).
+
+		// If mouse distance traveled < threshhold then no dragging takes place
+		if (Vector3.Distance (initialMousePosition, Input.mousePosition) < threshold) {  
+			return;
+		}
+
+		if (delta >= 0.5) {
+			Debug.Log ("Up");
+			toRow ++;
+		} else if (delta <= -0.5) {
+			Debug.Log ("Down");
+			toRow --;
+		} else {
+			delta = Vector3.Dot (currentMousePosition, Vector3.right);
+			if (delta >= 0.5) {
+				Debug.Log ("Right");
+				toColumn ++;
+			} else {
+				Debug.Log ("Left");
+				toColumn --;
+			}
+		}
+		trySwapBlock ();
+	}
+
+	void OnMouseUp(){
+		swipeFromRow = -1;
+		swipeFromColumn = -1;
+	}
+
+	// Determine if mouse has click within a game board, all tiles must have colliders on them
+	GameObject getClickedGameObject(){
+		// Builds a ray from camera point of view to the mouse position
+		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		RaycastHit hit;
+		// Casts the ray and get the first game object hit
+		if (Physics.Raycast (ray, out hit)) {
+			GameObject target = hit.collider.gameObject;
+
+			return hit.transform.gameObject;
+		}
+		else
+			return null;
+	}
+
+	void trySwapBlock(){
+
+		if (GameManager.blockAt (toColumn, toRow)) {
+
+			Block block_1 = GameManager.blockAt (swipeFromColumn, swipeFromRow);
+			Block block_2 = GameManager.blockAt (toColumn, toRow);
+
+			StartCoroutine (animateBlockMove (block_1, block_2));
+		}
+		swipeFromRow = -1;
+		swipeFromColumn = -1;
+	}
+
+	IEnumerator animateBlockMove(Block block_1, Block block_2){
+
+		while(block_1.transform.position != new Vector3(toColumn, toRow, 0)) {
+			block_1.transform.position = Vector3.Lerp (block_1.transform.position, new Vector2 (toColumn, toRow), (float)Time.deltaTime * smoothing);
+			block_2.transform.position = Vector3.Lerp (block_2.transform.position, new Vector2 (swipeFromColumn, swipeFromRow), (float)Time.deltaTime * smoothing);
+
+			yield return null; 
+		}
+		yield return null;
+	}
+
+
+
+	// Update is called once per frame
+	void Update () {
+
+	}
+}

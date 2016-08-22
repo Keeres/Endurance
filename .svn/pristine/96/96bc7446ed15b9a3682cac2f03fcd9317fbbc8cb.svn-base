@@ -1,0 +1,78 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using LitJson;
+
+public class Grid : MonoBehaviour {
+	
+	public static int width = 9;
+	public static int height = 9;
+	public ReadJson readJson;
+	public GameObject backdrop_1;
+	public GameObject backdrop_2;
+	public GameObject[] blocks;
+	public int [][] gameBoard;
+	private int count = 0;
+
+	void Start () {
+		JsonData LevelLayout = readJson.getLevel ("Level_1");
+
+		// Reads in JSON file to determine board shape
+		// If row is even place backdrop tile 1 then 2
+		// If row is odd place backdrop tile 2 then 1
+		for (int i=0; i<width; i++) {
+			for(int j=0; j<height; j++){
+				gameBoard [i] [j] = (int)LevelLayout ["tiles"] [i] [j];
+				if((int)LevelLayout["tiles"][i][j] == 1){
+					if(i%2 == 0 && (i*width+j)%2 == 0){
+						Instantiate(backdrop_1, new Vector3(j, i, 1),  Quaternion.identity);
+					}else if (i%2 == 0 && (i*width+j)%2 != 0){
+						Instantiate(backdrop_2, new Vector3(j, i, 1),  Quaternion.identity);
+					}
+					if(i%2 != 0 && (i*width+j)%2 != 0){
+						Instantiate(backdrop_2, new Vector3(j, i, 1),  Quaternion.identity);
+					}else if(i%2 != 0 && (i*width+j)%2 == 0){
+						Instantiate(backdrop_1, new Vector3(j, i, 1),  Quaternion.identity);
+					}
+				}
+			}
+		}
+	}
+		
+	// Spawn block at x,y
+	public void spawnAt(float x, float y) {
+		int index = Random.Range(0, blocks.Length);
+		Instantiate(blocks[index], new Vector2(x, y), Quaternion.identity);
+	}
+
+	public static Block blockAt(float x, float y) {
+		// Find block at Position (x, y)
+		Block[] block = GameObject.FindObjectsOfType<Block>();
+		foreach (Block b in block)
+			if ((Vector2)b.transform.position == new Vector2 (x, y))
+				return b;
+		return null;
+	}
+
+	public static Block blockRange(float x, float y) {
+		// Find Block at Position (x, y)
+		Block[] blocks = GameObject.FindObjectsOfType<Block>();
+		foreach (Block b in blocks)
+			if ((b.transform.position.x == x && b.transform.position.y >= y - 1)
+				&& (b.transform.position.x == x && b.transform.position.y <= y)) {
+
+				return b;
+			}
+		return null;
+	}
+
+
+	// Update is called once per frame
+	void Update () {
+		for (int x = 0; x < width; ++x)
+			if (!blockRange (x, height+1 - 1)) {
+					spawnAt (x, height+1 - 1);
+			}
+	
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "Knight": {
+	"Health": 15.0,
+    "Attack": 5.0,
+    "Defense": 3.0,
+    "Speed": 0.02,
+    "AttackSpeed": 2.0,
+    "AttackRange": 1.2,
+    "SensorRange": 7.0
+  },
+  "Wizard": {
+	"Health": 10,
+    "Attack": 5,
+    "Defense": 2,
+    "Speed": 2,
+    "AttackSpeed": 2,
+    "AttackRange": 5,
+    "SensorRange": 8
+  }
+}

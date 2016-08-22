@@ -1,0 +1,22 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.IO;
+using LitJson;
+
+public class ReadJson : MonoBehaviour {
+	private string JSONString;
+	private JsonData levelData;
+
+
+	public JsonData getLevel(string level){
+		JSONString = File.ReadAllText (Application.dataPath + "/Resources/" + level +".json");
+		if (JSONString != null) {
+			levelData = JsonMapper.ToObject (JSONString);
+			Debug.Log (levelData ["tiles"] [0] [1]);
+
+			return levelData;
+		}else{
+			return null;
+		}
+	}
+}

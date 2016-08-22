@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 662e01c958d0549cdab8d2cf79485e7b
+timeCreated: 1465836023
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MageDead_0
+    21300002: MageDead_1
+    21300004: MageDead_2
+    21300006: MageDead_3
+    21300008: MageDead_4
+    21300010: MageDead_5
+    21300012: MageDead_6
+    21300014: MageDead_7
+    21300016: MageDead_8
+    21300018: MageDead_9
+    21300020: MageDead_10
+    21300022: MageDead_11
+    21300024: MageDead_12
+    21300026: MageDead_13
+    21300028: MageDead_14
+    21300030: MageDead_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MageDead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 50.5}
+        - {x: -26, y: 34.5}
+        - {x: -26, y: -14.5}
+        - {x: -13, y: -56.5}
+        - {x: 45, y: -56.5}
+        - {x: 62, y: -5.5}
+        - {x: 62, y: 37.5}
+        - {x: 35, y: 50.5}
+    - name: MageDead_1
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.499992, y: 43.5}
+        - {x: 21.499992, y: 47.5}
+        - {x: -20.500008, y: 47.5}
+        - {x: -29.500008, y: 41.5}
+        - {x: -29.500008, y: -26.5}
+        - {x: 1.4999924, y: -56.5}
+        - {x: 42.499992, y: -56.5}
+        - {x: 50.499992, y: -42.5}
+        - {x: 50.499992, y: -21.5}
+        - {x: 53.499992, y: -6.5}
+    - name: MageDead_2
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.500015, y: 45.5}
+        - {x: -37.500015, y: 24.5}
+        - {x: -37.500015, y: -15.5}
+        - {x: 0.49998474, y: -56.5}
+        - {x: 36.499985, y: -56.5}
+        - {x: 50.499985, y: -44.5}
+        - {x: 50.499985, y: 42.5}
+        - {x: 36.499985, y: 45.5}
+    - name: MageDead_3
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.49997, y: 43.5}
+        - {x: -10.5000305, y: 43.5}
+        - {x: -18.50003, y: 42.5}
+        - {x: -37.50003, y: 35.5}
+        - {x: -45.50003, y: 15.5}
+        - {x: -45.50003, y: -5.5}
+        - {x: -42.50003, y: -18.5}
+        - {x: -11.5000305, y: -57.5}
+        - {x: 48.49997, y: -57.5}
+        - {x: 50.49997, y: -53.5}
+        - {x: 50.49997, y: -5.5}
+        - {x: 40.49997, y: 35.5}
+    - name: MageDead_4
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5000305, y: 45.5}
+        - {x: -40.50003, y: 37.5}
+        - {x: -50.50003, y: 28.5}
+        - {x: -50.50003, y: -23.5}
+        - {x: -16.50003, y: -57.5}
+        - {x: 50.49997, y: -57.5}
+        - {x: 50.49997, y: 45.5}
+    - name: MageDead_5
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 44.5}
+        - {x: -50, y: 36.5}
+        - {x: -50, y: 4.5}
+        - {x: -46, y: 1.5}
+        - {x: -41, y: 1.5}
+        - {x: -48, y: -19.5}
+        - {x: -9, y: -57.5}
+        - {x: 22, y: -57.5}
+        - {x: 38, y: -54.5}
+        - {x: 49, y: -34.5}
+        - {x: 49, y: -0.5}
+        - {x: 38, y: 44.5}
+    - name: MageDead_6
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.500061, y: 44.5}
+        - {x: -38.50006, y: 39.5}
+        - {x: -46.50006, y: 20.5}
+        - {x: -46.50006, y: 6.5}
+        - {x: -42.50006, y: 2.5}
+        - {x: -37.50006, y: 4.5}
+        - {x: -38.50006, y: -15.5}
+        - {x: -36.50006, y: -21.5}
+        - {x: -9.500061, y: -46.5}
+        - {x: 4.499939, y: -57.5}
+        - {x: 27.499939, y: -57.5}
+        - {x: 45.49994, y: -49.5}
+        - {x: 50.49994, y: -36.5}
+        - {x: 50.49994, y: -11.5}
+        - {x: 31.499939, y: 44.5}
+    - name: MageDead_7
+      rect:
+        serializedVersion: 2
+        x: 2989
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.500061, y: 43.5}
+        - {x: -30.500061, y: 42.5}
+        - {x: -43.50006, y: 30.5}
+        - {x: -43.50006, y: -9.5}
+        - {x: -9.500061, y: -57.5}
+        - {x: 38.49994, y: -57.5}
+        - {x: 47.49994, y: -49.5}
+        - {x: 50.49994, y: -42.5}
+        - {x: 50.49994, y: -0.5}
+        - {x: 33.49994, y: 43.5}
+    - name: MageDead_8
+      rect:
+        serializedVersion: 2
+        x: 3416
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.50006, y: 44.5}
+        - {x: -40.50006, y: -35.5}
+        - {x: -3.500061, y: -57.5}
+        - {x: 41.49994, y: -57.5}
+        - {x: 50.49994, y: -49.5}
+        - {x: 50.49994, y: 41.5}
+        - {x: 36.49994, y: 44.5}
+    - name: MageDead_9
+      rect:
+        serializedVersion: 2
+        x: 3843
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 45.5}
+        - {x: -39, y: 24.5}
+        - {x: -39, y: -15.5}
+        - {x: -1, y: -56.5}
+        - {x: 35, y: -56.5}
+        - {x: 49, y: -44.5}
+        - {x: 49, y: 42.5}
+        - {x: 35, y: 45.5}
+    - name: MageDead_10
+      rect:
+        serializedVersion: 2
+        x: 4270
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 46.5}
+        - {x: -24, y: 46.5}
+        - {x: -36, y: 35.5}
+        - {x: -36, y: -47.5}
+        - {x: -35, y: -56.5}
+        - {x: 49, y: -56.5}
+        - {x: 49, y: 41.5}
+        - {x: 45, y: 43.5}
+    - name: MageDead_11
+      rect:
+        serializedVersion: 2
+        x: 4697
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 47.5}
+        - {x: -21, y: 44.5}
+        - {x: -32, y: 27.5}
+        - {x: -32, y: -12.5}
+        - {x: -5, y: -56.5}
+        - {x: 32, y: -56.5}
+        - {x: 38, y: -54.5}
+        - {x: 50, y: -40.5}
+        - {x: 50, y: 40.5}
+        - {x: 15, y: 47.5}
+    - name: MageDead_12
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.500122, y: 48.5}
+        - {x: -28.500122, y: 40.5}
+        - {x: -28.500122, y: -15.5}
+        - {x: -1.5001221, y: -56.5}
+        - {x: 44.499878, y: -56.5}
+        - {x: 55.499878, y: -52.5}
+        - {x: 55.499878, y: 39.5}
+        - {x: 31.499878, y: 48.5}
+    - name: MageDead_13
+      rect:
+        serializedVersion: 2
+        x: 5551
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.500122, y: 49.5}
+        - {x: -26.500122, y: 41.5}
+        - {x: -26.500122, y: -8.5}
+        - {x: -0.5001221, y: -56.5}
+        - {x: 50.499878, y: -56.5}
+        - {x: 59.499878, y: -18.5}
+        - {x: 59.499878, y: 43.5}
+        - {x: 24.499878, y: 49.5}
+    - name: MageDead_14
+      rect:
+        serializedVersion: 2
+        x: 5978
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.500122, y: 50.5}
+        - {x: -24.500122, y: 42.5}
+        - {x: -24.500122, y: -32.5}
+        - {x: -13.500122, y: -56.5}
+        - {x: 46.499878, y: -56.5}
+        - {x: 63.499878, y: -5.5}
+        - {x: 63.499878, y: 42.5}
+        - {x: 53.499878, y: 50.5}
+    - name: MageDead_15
+      rect:
+        serializedVersion: 2
+        x: 6405
+        y: 0
+        width: 427
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.500122, y: 50.5}
+        - {x: -24.500122, y: 42.5}
+        - {x: -24.500122, y: -32.5}
+        - {x: -13.500122, y: -56.5}
+        - {x: 46.499878, y: -56.5}
+        - {x: 63.499878, y: -5.5}
+        - {x: 63.499878, y: 42.5}
+        - {x: 53.499878, y: 50.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

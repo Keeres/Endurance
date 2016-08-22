@@ -1,0 +1,779 @@
+fileFormatVersion: 2
+guid: 5521b57d7324445858414968a2788e04
+timeCreated: 1465431586
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Knight-Skill_0
+    21300002: Knight-Skill_1
+    21300004: Knight-Skill_2
+    21300006: Knight-Skill_3
+    21300008: Knight-Skill_4
+    21300010: Knight-Skill_5
+    21300012: Knight-Skill_6
+    21300014: Knight-Skill_7
+    21300016: Knight-Skill_8
+    21300018: Knight-Skill_9
+    21300020: Knight-Skill_10
+    21300022: Knight-Skill_11
+    21300024: Knight-Skill_12
+    21300026: Knight-Skill_13
+    21300028: Knight-Skill_14
+    21300030: Knight-Skill_15
+    21300032: Knight-Skill_16
+    21300034: Knight-Skill_17
+    21300036: Knight-Skill_18
+    21300038: Knight-Skill_19
+    21300040: Knight-Skill_20
+    21300042: Knight-Skill_21
+    21300044: Knight-Skill_22
+    21300046: Knight-Skill_23
+    21300048: Knight-Skill_24
+    21300050: Knight-Skill_25
+    21300052: Knight-Skill_26
+    21300054: Knight-Skill_27
+    21300056: Knight-Skill_28
+    21300058: Knight-Skill_29
+    21300060: Knight-Skill_30
+    21300062: Knight-Skill_31
+    21300064: KnightAttack2_0
+    21300066: KnightAttack2_1
+    21300068: KnightAttack2_2
+    21300070: KnightAttack2_3
+    21300072: KnightAttack2_4
+    21300074: KnightAttack2_5
+    21300076: KnightAttack2_6
+    21300078: KnightAttack2_7
+    21300080: KnightAttack2_8
+    21300082: KnightAttack2_9
+    21300084: KnightAttack2_10
+    21300086: KnightAttack2_11
+    21300088: KnightAttack2_12
+    21300090: KnightAttack2_13
+    21300092: KnightAttack2_14
+    21300094: KnightAttack2_15
+    21300096: KnightAttack2_16
+    21300098: KnightAttack2_17
+    21300100: KnightAttack2_18
+    21300102: KnightAttack2_19
+    21300104: KnightAttack2_20
+    21300106: KnightAttack2_21
+    21300108: KnightAttack2_22
+    21300110: KnightAttack2_23
+    21300112: KnightAttack2_24
+    21300114: KnightAttack2_25
+    21300116: KnightAttack2_26
+    21300118: KnightAttack2_27
+    21300120: KnightAttack2_28
+    21300122: KnightAttack2_29
+    21300124: KnightAttack2_30
+    21300126: KnightAttack2_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 400
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KnightAttack2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.7599983, y: 41.39155}
+        - {x: -17.240002, y: 32.39155}
+        - {x: -18.240002, y: 26.391548}
+        - {x: -18.240002, y: 23.391548}
+        - {x: -16.240002, y: 21.391548}
+        - {x: -16.240002, y: 19.391548}
+        - {x: -13.240002, y: 14.391548}
+        - {x: -17.240002, y: 22.391548}
+        - {x: -20.240002, y: 26.391548}
+        - {x: -33.24, y: 31.391548}
+        - {x: -35.24, y: 31.391548}
+        - {x: -35.24, y: 10.391548}
+        - {x: -33.24, y: -13.608452}
+        - {x: -5.2400017, y: -45.60845}
+        - {x: 29.759998, y: -45.60845}
+        - {x: 40.76, y: -33.60845}
+        - {x: 40.76, y: 32.39155}
+        - {x: 31.759998, y: 41.39155}
+    - name: KnightAttack2_1
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.740013, y: 42.39155}
+        - {x: -30.740013, y: 38.39155}
+        - {x: -30.740013, y: 1.3915482}
+        - {x: -10.740013, y: -44.60845}
+        - {x: 41.259987, y: -44.60845}
+        - {x: 41.259987, y: 42.39155}
+    - name: KnightAttack2_2
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.740036, y: 44.39155}
+        - {x: -27.740036, y: 43.39155}
+        - {x: -27.740036, y: -14.608452}
+        - {x: -26.740036, y: -18.608452}
+        - {x: -8.740036, y: -40.60845}
+        - {x: -3.740036, y: -44.60845}
+        - {x: 40.259964, y: -44.60845}
+        - {x: 40.259964, y: 38.39155}
+        - {x: 31.259964, y: 44.39155}
+    - name: KnightAttack2_3
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.76001, y: 45.39155}
+        - {x: -3.2399902, y: 42.39155}
+        - {x: -25.23999, y: 33.39155}
+        - {x: -25.23999, y: 14.391548}
+        - {x: -7.23999, y: -43.60845}
+        - {x: 19.76001, y: -43.60845}
+        - {x: 35.76001, y: -41.60845}
+        - {x: 37.76001, y: -27.608452}
+        - {x: 37.76001, y: 34.39155}
+        - {x: 29.76001, y: 45.39155}
+    - name: KnightAttack2_4
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.2599182, y: 46.39155}
+        - {x: -22.740082, y: 36.39155}
+        - {x: -22.740082, y: 4.391548}
+        - {x: -6.740082, y: -38.60845}
+        - {x: -2.7400818, y: -42.60845}
+        - {x: 37.25992, y: -42.60845}
+        - {x: 38.25992, y: -33.60845}
+        - {x: 38.25992, y: 41.39155}
+        - {x: 32.25992, y: 46.39155}
+    - name: KnightAttack2_5
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.23999, y: 47.39155}
+        - {x: -25.23999, y: 36.39155}
+        - {x: -25.23999, y: -5.608452}
+        - {x: -8.23999, y: -42.60845}
+        - {x: 16.76001, y: -42.60845}
+        - {x: 26.76001, y: -41.60845}
+        - {x: 35.76001, y: -21.608452}
+        - {x: 35.76001, y: 39.39155}
+        - {x: 24.76001, y: 47.39155}
+    - name: KnightAttack2_6
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.23999, y: 49.39155}
+        - {x: -26.23999, y: 39.39155}
+        - {x: -26.23999, y: 17.391548}
+        - {x: -23.23999, y: 10.391548}
+        - {x: -9.23999, y: -41.60845}
+        - {x: 26.76001, y: -41.60845}
+        - {x: 34.76001, y: -22.608452}
+        - {x: 34.76001, y: 46.39155}
+        - {x: 24.76001, y: 49.39155}
+    - name: KnightAttack2_7
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.259949, y: 50.39155}
+        - {x: -11.740051, y: 50.39155}
+        - {x: -13.740051, y: 49.39155}
+        - {x: -26.740051, y: 37.39155}
+        - {x: -26.740051, y: 12.391548}
+        - {x: -8.740051, y: -36.60845}
+        - {x: -2.7400513, y: -40.60845}
+        - {x: 31.259949, y: -40.60845}
+        - {x: 35.25995, y: -33.60845}
+        - {x: 35.25995, y: 38.39155}
+    - name: KnightAttack2_8
+      rect:
+        serializedVersion: 2
+        x: 3976
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.740173, y: 52.39155}
+        - {x: -27.740173, y: 32.39155}
+        - {x: -27.740173, y: 26.391548}
+        - {x: -20.740173, y: 16.391548}
+        - {x: -16.740173, y: 11.391548}
+        - {x: -5.7401733, y: -0.60845184}
+        - {x: -4.7401733, y: -35.60845}
+        - {x: -1.7401733, y: -40.60845}
+        - {x: 21.259827, y: -40.60845}
+        - {x: 26.259827, y: -39.60845}
+        - {x: 34.259827, y: -28.608452}
+        - {x: 34.259827, y: 44.39155}
+        - {x: 20.259827, y: 52.39155}
+    - name: KnightAttack2_9
+      rect:
+        serializedVersion: 2
+        x: 4473
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.23999, y: 52.39155}
+        - {x: -29.23999, y: 33.39155}
+        - {x: -29.23999, y: 20.391548}
+        - {x: -12.23999, y: -29.608452}
+        - {x: -5.23999, y: -39.60845}
+        - {x: 31.76001, y: -39.60845}
+        - {x: 31.76001, y: 52.39155}
+    - name: KnightAttack2_10
+      rect:
+        serializedVersion: 2
+        x: 4970
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.76001, y: -26.608452}
+        - {x: 10.76001, y: -28.608452}
+        - {x: 15.76001, y: -36.60845}
+        - {x: 31.76001, y: -30.608452}
+        - {x: 31.76001, y: 37.39155}
+        - {x: 26.76001, y: 54.39155}
+        - {x: -18.23999, y: 54.39155}
+        - {x: -29.23999, y: 35.39155}
+        - {x: -29.23999, y: 7.391548}
+        - {x: -16.23999, y: -31.608452}
+        - {x: -6.23999, y: -38.60845}
+        - {x: 6.76001, y: -38.60845}
+        - {x: 8.76001, y: -36.60845}
+        - {x: 8.76001, y: -29.608452}
+        - {x: 10.76001, y: -26.608452}
+    - name: KnightAttack2_11
+      rect:
+        serializedVersion: 2
+        x: 5467
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.76001, y: 54.39155}
+        - {x: -19.23999, y: 54.39155}
+        - {x: -30.23999, y: 35.39155}
+        - {x: -30.23999, y: 29.391548}
+        - {x: -28.23999, y: 24.391548}
+        - {x: -20.23999, y: 13.391548}
+        - {x: -7.23999, y: -33.60845}
+        - {x: -3.2399902, y: -37.60845}
+        - {x: 10.76001, y: -37.60845}
+        - {x: 28.76001, y: -30.608452}
+        - {x: 31.76001, y: -21.608452}
+        - {x: 31.76001, y: 33.39155}
+        - {x: 29.76001, y: 45.39155}
+    - name: KnightAttack2_12
+      rect:
+        serializedVersion: 2
+        x: 5964
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.23999, y: 55.39155}
+        - {x: -30.23999, y: 49.39155}
+        - {x: -30.23999, y: 7.391548}
+        - {x: -14.23999, y: -35.60845}
+        - {x: 28.76001, y: -35.60845}
+        - {x: 31.76001, y: -28.608452}
+        - {x: 31.76001, y: 42.39155}
+        - {x: 23.76001, y: 55.39155}
+    - name: KnightAttack2_13
+      rect:
+        serializedVersion: 2
+        x: 6461
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.2399902, y: 60.39155}
+        - {x: -25.23999, y: 41.39155}
+        - {x: -25.23999, y: 18.391548}
+        - {x: -7.23999, y: -37.60845}
+        - {x: 20.76001, y: -37.60845}
+        - {x: 31.76001, y: -33.60845}
+        - {x: 34.76001, y: -17.608452}
+        - {x: 34.76001, y: 43.39155}
+        - {x: 18.76001, y: 60.39155}
+    - name: KnightAttack2_14
+      rect:
+        serializedVersion: 2
+        x: 6958
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.259888, y: 57.39155}
+        - {x: -1.7401123, y: 49.39155}
+        - {x: -18.740112, y: 41.39155}
+        - {x: -18.740112, y: 8.391548}
+        - {x: -9.740112, y: -35.60845}
+        - {x: -8.740112, y: -38.60845}
+        - {x: 29.259888, y: -38.60845}
+        - {x: 40.259888, y: -24.608452}
+        - {x: 40.259888, y: 47.39155}
+        - {x: 34.259888, y: 57.39155}
+    - name: KnightAttack2_15
+      rect:
+        serializedVersion: 2
+        x: 7455
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.259888, y: 24.391548}
+        - {x: 57.259888, y: 48.39155}
+        - {x: -7.7401123, y: 48.39155}
+        - {x: -14.740112, y: 45.39155}
+        - {x: -14.740112, y: -15.608452}
+        - {x: -12.740112, y: -37.60845}
+        - {x: -2.7401123, y: -40.60845}
+        - {x: 5.2598877, y: -40.60845}
+        - {x: 28.259888, y: -37.60845}
+        - {x: 30.259888, y: -34.60845}
+        - {x: 34.259888, y: -25.608452}
+    - name: KnightAttack2_16
+      rect:
+        serializedVersion: 2
+        x: 7952
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.259644, y: 45.39155}
+        - {x: -8.740356, y: 45.39155}
+        - {x: -8.740356, y: -42.60845}
+        - {x: 25.259644, y: -42.60845}
+        - {x: 35.259644, y: -39.60845}
+        - {x: 74.25964, y: 12.391548}
+        - {x: 74.25964, y: 33.39155}
+    - name: KnightAttack2_17
+      rect:
+        serializedVersion: 2
+        x: 8449
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.76001, y: 42.39155}
+        - {x: 12.76001, y: 42.39155}
+        - {x: 10.76001, y: 41.39155}
+        - {x: 6.76001, y: 34.39155}
+        - {x: 4.76001, y: 30.391548}
+        - {x: 5.76001, y: 30.391548}
+        - {x: 4.76001, y: 32.39155}
+        - {x: -0.23999023, y: 36.39155}
+        - {x: -3.2399902, y: 37.39155}
+        - {x: -7.23999, y: 35.39155}
+        - {x: -7.23999, y: -43.60845}
+        - {x: 40.76001, y: -43.60845}
+        - {x: 82.76001, y: -16.608452}
+        - {x: 83.76001, y: -12.608452}
+        - {x: 83.76001, y: 7.391548}
+    - name: KnightAttack2_18
+      rect:
+        serializedVersion: 2
+        x: 8946
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.23999, y: 39.39155}
+        - {x: -7.23999, y: 32.39155}
+        - {x: -7.23999, y: -45.60845}
+        - {x: 49.76001, y: -45.60845}
+        - {x: 80.76001, y: -39.60845}
+        - {x: 85.76001, y: -35.60845}
+        - {x: 85.76001, y: 10.391548}
+        - {x: 58.76001, y: 39.39155}
+    - name: KnightAttack2_19
+      rect:
+        serializedVersion: 2
+        x: 9443
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67.76001, y: 27.391548}
+        - {x: 46.76001, y: 38.39155}
+        - {x: 1.7600098, y: 38.39155}
+        - {x: -7.23999, y: -6.608452}
+        - {x: -7.23999, y: -45.60845}
+        - {x: 37.76001, y: -45.60845}
+        - {x: 77.76001, y: -30.608452}
+        - {x: 85.76001, y: -24.608452}
+        - {x: 85.76001, y: -0.60845184}
+    - name: KnightAttack2_20
+      rect:
+        serializedVersion: 2
+        x: 9940
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.76001, y: -11.608452}
+        - {x: 63.76001, y: 21.391548}
+        - {x: 54.76001, y: 37.39155}
+        - {x: 50.76001, y: 38.39155}
+        - {x: 3.7600098, y: 38.39155}
+        - {x: 3.7600098, y: 37.39155}
+        - {x: -7.23999, y: -5.608452}
+        - {x: -7.23999, y: -44.60845}
+        - {x: -5.23999, y: -45.60845}
+        - {x: 48.76001, y: -45.60845}
+        - {x: 85.76001, y: -26.608452}
+        - {x: 85.76001, y: -17.608452}
+    - name: KnightAttack2_21
+      rect:
+        serializedVersion: 2
+        x: 10437
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.76001, y: 38.39155}
+        - {x: -7.23999, y: -16.608452}
+        - {x: -7.23999, y: -45.60845}
+        - {x: 62.76001, y: -45.60845}
+        - {x: 85.76001, y: -39.60845}
+        - {x: 85.76001, y: 5.391548}
+        - {x: 71.76001, y: 34.39155}
+        - {x: 56.76001, y: 38.39155}
+    - name: KnightAttack2_22
+      rect:
+        serializedVersion: 2
+        x: 10934
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.76001, y: 39.39155}
+        - {x: -7.23999, y: -12.608452}
+        - {x: -7.23999, y: -45.60845}
+        - {x: 77.76001, y: -45.60845}
+        - {x: 82.76001, y: -44.60845}
+        - {x: 85.76001, y: -41.60845}
+        - {x: 85.76001, y: 11.391548}
+        - {x: 60.76001, y: 39.39155}
+    - name: KnightAttack2_23
+      rect:
+        serializedVersion: 2
+        x: 11431
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.23999, y: -45.60845}
+        - {x: 46.76001, y: -45.60845}
+        - {x: 81.76001, y: -22.608452}
+        - {x: 81.76001, y: 14.391548}
+        - {x: 65.76001, y: 39.39155}
+        - {x: 2.7600098, y: 39.39155}
+        - {x: -7.23999, y: -3.6084518}
+    - name: KnightAttack2_24
+      rect:
+        serializedVersion: 2
+        x: 11928
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.23999, y: 40.39155}
+        - {x: -7.23999, y: 21.391548}
+        - {x: -7.23999, y: -45.60845}
+        - {x: 40.76001, y: -45.60845}
+        - {x: 67.76001, y: -1.6084518}
+        - {x: 67.76001, y: 20.391548}
+        - {x: 37.76001, y: 40.39155}
+    - name: KnightAttack2_25
+      rect:
+        serializedVersion: 2
+        x: 12425
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.76001, y: 41.39155}
+        - {x: -8.23999, y: 36.39155}
+        - {x: -8.23999, y: -38.60845}
+        - {x: -4.23999, y: -45.60845}
+        - {x: 3.7600098, y: -45.60845}
+        - {x: 8.76001, y: -40.60845}
+        - {x: 17.76001, y: -45.60845}
+        - {x: 35.76001, y: -45.60845}
+        - {x: 48.76001, y: 3.3915482}
+        - {x: 48.76001, y: 34.39155}
+        - {x: 38.76001, y: 41.39155}
+    - name: KnightAttack2_26
+      rect:
+        serializedVersion: 2
+        x: 12922
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.23999, y: 41.39155}
+        - {x: -13.23999, y: 39.39155}
+        - {x: -13.23999, y: -8.608452}
+        - {x: -9.23999, y: -35.60845}
+        - {x: -4.23999, y: -45.60845}
+        - {x: 34.76001, y: -45.60845}
+        - {x: 43.76001, y: -31.608452}
+        - {x: 43.76001, y: 38.39155}
+        - {x: 36.76001, y: 41.39155}
+    - name: KnightAttack2_27
+      rect:
+        serializedVersion: 2
+        x: 13419
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.23999, y: 41.39155}
+        - {x: -14.23999, y: -4.608452}
+        - {x: -8.23999, y: -40.60845}
+        - {x: -1.2399902, y: -45.60845}
+        - {x: 3.7600098, y: -45.60845}
+        - {x: 6.76001, y: -42.60845}
+        - {x: 11.76001, y: -45.60845}
+        - {x: 39.76001, y: -45.60845}
+        - {x: 42.76001, y: -30.608452}
+        - {x: 42.76001, y: 41.39155}
+    - name: KnightAttack2_28
+      rect:
+        serializedVersion: 2
+        x: 13916
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.740234, y: 41.39155}
+        - {x: -13.740234, y: -44.60845}
+        - {x: -8.740234, y: -45.60845}
+        - {x: 33.259766, y: -45.60845}
+        - {x: 38.259766, y: -42.60845}
+        - {x: 44.259766, y: -36.60845}
+        - {x: 44.259766, y: 41.39155}
+    - name: KnightAttack2_29
+      rect:
+        serializedVersion: 2
+        x: 14413
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.2597656, y: 41.39155}
+        - {x: -14.740234, y: 31.391548}
+        - {x: -14.740234, y: -19.608452}
+        - {x: -6.7402344, y: -45.60845}
+        - {x: 37.259766, y: -45.60845}
+        - {x: 41.259766, y: -44.60845}
+        - {x: 43.259766, y: -34.60845}
+        - {x: 43.259766, y: 32.39155}
+        - {x: 40.259766, y: 41.39155}
+    - name: KnightAttack2_30
+      rect:
+        serializedVersion: 2
+        x: 14910
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.740234, y: 41.39155}
+        - {x: -20.740234, y: -15.608452}
+        - {x: -8.740234, y: -45.60845}
+        - {x: 43.259766, y: -45.60845}
+        - {x: 43.259766, y: 31.391548}
+        - {x: 36.259766, y: 41.39155}
+    - name: KnightAttack2_31
+      rect:
+        serializedVersion: 2
+        x: 15407
+        y: 0
+        width: 497
+        height: 410
+      alignment: 9
+      pivot: {x: 0.33, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.740234, y: 41.39155}
+        - {x: -27.740234, y: 39.39155}
+        - {x: -27.740234, y: -15.608452}
+        - {x: -14.740234, y: -45.60845}
+        - {x: 43.259766, y: -45.60845}
+        - {x: 43.259766, y: 38.39155}
+        - {x: 33.259766, y: 41.39155}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
