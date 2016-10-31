@@ -73,6 +73,7 @@ public class SmoothCamera2D : MonoBehaviour {
 		}else if (enemyUnits.Count == 0 && playerUnits.Count !=0 && isMovingLeft == false) {
 			Unit playerUnit = playerUnits[0].transform.parent.GetComponent<Unit>();
 			speed = (float)playerUnit.speed;
+
 			isMovingRight = true;
 			isMovingLeft = false;
 		}
@@ -94,7 +95,7 @@ public class SmoothCamera2D : MonoBehaviour {
 
 
 	// Update is called once per frame
-	void LateUpdate (){
+	void FixedUpdate (){
 		moveSpeedUpdate ();
 		removeInactiveUnits ();
 			
